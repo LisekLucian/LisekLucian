@@ -1,440 +1,679 @@
-from PIL import ImageGrab
-import fastapi
-app = fastapi.FastAPI()
+<head id="ctl00_Head1"><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app209.us.archive.org';v.server_ms=1461;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=ViQoywbk" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://www.roblox.com/","20100218021241","https://web.archive.org/","web","/_static/",
+	      "1266459161");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt">
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ">
+<!-- End Wayback Rewrite JS Include -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"><title>
+	Free Games at ROBLOX.com
+</title><link id="ctl00_Imports" rel="stylesheet" type="text/css" href="/web/20100218021241cs_/http://www.roblox.com/Themes/Test/CSS/AllCSS.ashx?v=20100208&amp;t=Test"><link id="ctl00_Link1" rel="icon" type="image/vnd.microsoft.icon" href="/web/20100218021241im_/http://www.roblox.com/favicon.ico"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="Content-Language" content="en-us"><meta name="author" content="ROBLOX Corporation"><meta id="ctl00_metadescription" name="description" content="Free Games and Building Games!  A virtual world for kids with user-created castles, cars, spaceships, swords, battles, trucks, zombies and awesome destruction.  Build, battle, chat, or just hang out online."><meta id="ctl00_metakeywords" name="keywords" content="free games, online games, building games, virtual world"></head>
+<body>
+<form name="aspnetForm" method="post" action="/web/20100218021241/http://www.roblox.com/Default.aspx" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUINDE5NTkxMDIPZBYCZg9kFgRmD2QWAgIDDxYCHgdWaXNpYmxlaGQCAQ9kFggCAQ8WAh4EVGV4dGVkAgUPDxYCHwBoZGQCBw9kFgICAQ9kFgICAQ9kFgRmD2QWAgIBD2QWAgIBDxYGHgZoZWlnaHQFAjkwHgNzcmMFNS9BZHMvSUZyYW1lQWRDb250ZW50LmFzcHg/c2xvdD1Sb2Jsb3hfSG9tZV9Ub3BfNzI4eDkwHgV3aWR0aAUDNzI4ZAIBD2QWBgIBD2QWAmYPZBYEAgEPFgIeBVZhbHVlBQYzODAzODVkAgMPDxYGHghJbWFnZVVybGQeC0NvbW1hbmROYW1lZR4PQ29tbWFuZEFyZ3VtZW50ZGRkAgMPDxYEHwgFBjM4MDM4NR8AaGRkAgUPDxYCHwgFBjM4MDM4NWRkAhEPZBYIAgcPZBYQAgEPDxYCHwEFIXBsYWNlIGNsb3NlZCBkdWUgdG8gYSBoYWNrZXIuIC4uLmRkAgMPDxYIHgpJc1VybEZpbmFsZx8GBTdodHRwOi8vdDBiZy5yb2Jsb3guY29tL2MzMjY3MTcxYWYxOTk2MTRjMjEyYzQzN2JlYjZiNTliHwdlHwhkZGQCBQ8PFgIeC05hdmlnYXRlVXJsBUEvcGxhY2UtY2xvc2VkLWR1ZS10by1hLWhhY2tlci1pLXJhbi1vdXQtb2YtaWRlYXMtaXRlbT9pZD0xMjA5MDIzMmRkAgcPFgIfAQULMyBob3VycyBhZ29kAgkPFgIfAQULMywxNTAgdGltZXNkAgsPZBYCZg8WAh8BBQwxNiwzMzQgdGltZXNkAg0PDxYIHwlnHwYFN2h0dHA6Ly90M2JnLnJvYmxveC5jb20vYmQzODg1ZWM2ZWE4NDVlOTRmZWM3NTU1N2NhODQ4MzkfB2UfCGRkZAIPDw8WBB8KBRZ+L1VzZXIuYXNweD9JRD0yNDI4NjY2HwEFCk1pcnJvck1hZ2VkZAIJD2QWAgIBD2QWBGYPZBYCAgEPZBYCAgEPFgYfAgUDMjUwHwMFQy9BZHMvSUZyYW1lQWRDb250ZW50LmFzcHg/c2xvdD1Sb2Jsb3hfSG9tZV9NZWRpdW1fUmVjdGFuZ2xlXzMwMHgyNTAfBAUDMzAwZAIBD2QWBgIBD2QWAmYPZBYEAgEPFgIfBQUGMzc4OTU2ZAIDDw8WBh8GZB8HZR8IZGRkAgMPDxYEHwgFBjM3ODk1Nh8AaGRkAgUPDxYCHwgFBjM3ODk1NmRkAhUPZBYCZg9kFgJmD2QWAgIDDxYCHgtfIUl0ZW1Db3VudAIEFggCAQ9kFgICAQ8PFgQfCgUeaHR0cDovL2Jsb2cucm9ibG94LmNvbS8/cD0yMDg3HwEFF0hhcHB5IFByZXNpZGVudOKAmXMgRGF5ZGQCAg9kFgICAQ8PFgQfCgUeaHR0cDovL2Jsb2cucm9ibG94LmNvbS8/cD0yMDgzHwEFGkludGVydmlldyB3aXRoIEVyaWsgQ2Fzc2VsZGQCAw9kFgICAQ8PFgQfCgUeaHR0cDovL2Jsb2cucm9ibG94LmNvbS8/cD0yMDc0HwEFD0hvbGlkYXkgV2Vla2VuZGRkAgQPZBYCAgEPDxYEHwoFHmh0dHA6Ly9ibG9nLnJvYmxveC5jb20vP3A9MjA2OR8BBQ9XYWNreSBXZWRuZXNkYXlkZAIXD2QWAgIBD2QWBGYPZBYCAgEPZBYCAgEPFgYfAgUCOTAfAwU4L0Fkcy9JRnJhbWVBZENvbnRlbnQuYXNweD9zbG90PVJvYmxveF9EZWZhdWx0X1RvcF83Mjh4OTAfBAUDNzI4ZAIBD2QWBgIBD2QWAmYPZBYEAgEPFgIfBQUGMzY1Mjk3ZAIDDw8WBh8GZB8HZR8IZGRkAgMPDxYEHwgFBjM2NTI5Nx8AaGRkAgUPDxYCHwgFBjM2NTI5N2RkGAUFLGN0bDAwJGNwaFJvYmxveCRMYXJnZVJlY3RBZCRBc3luY0FkTXVsdGlWaWV3Dw9kZmQFI2N0bDAwJHJieEdvb2dsZUFuYWx5dGljcyRNdWx0aVZpZXcxDw9kZmQFNWN0bDAwJGNwaFJvYmxveCRIb21lUGFnZUJvdHRvbUJhbm5lciRBc3luY0FkTXVsdGlWaWV3Dw9kZmQFJ2N0bDAwJGNwaFJvYmxveCRNb25leU1hY2hpbmUkTXVsdGlWaWV3MQ8PZGZkBTJjdGwwMCRjcGhCYW5uZXJBZCRIb21lVG9wQmFubmVyQWQkQXN5bmNBZE11bHRpVmlldw8PZGZkIbscZHS878dtAZOIEIjopNI/rTo=">
 
 
-colours = {}
-colours['🀄']=[189,181,176]
-colours['🃏']=[178,174,170]
-colours['🌀']=[78,144,163]
-colours['🌁']=[204,198,202]
-colours['🌂']=[90,105,111]
-colours['🌃']=[56,81,95]
-colours['🌄']=[188,174,75]
-colours['🌅']=[169,164,120]
-colours['🌆']=[123,94,49]
-colours['🌇']=[169,141,79]
-colours['🌈']=[135,115,78]
-colours['🌊']=[74,142,167]
-colours['🌋']=[112,113,91]
-colours['🌌']=[95,72,137]
-colours['🌍']=[109,166,156]
-colours['🌎']=[112,169,166]
-colours['🌏']=[109,165,154]
-colours['🌐']=[65,123,134]
-colours['🌑']=[94,114,116]
-colours['🌒']=[121,131,116]
-colours['🌓']=[157,154,115]
-colours['🌔']=[192,177,113]
-colours['🌕']=[219,195,113]
-colours['🌖']=[192,177,113]
-colours['🌗']=[157,154,115]
-colours['🌘']=[121,131,116]
-colours['🌙']=[125,142,90]
-colours['🌚']=[90,109,110]
-colours['🌛']=[130,143,90]
-colours['🌜']=[130,143,90]
-colours['🌝']=[202,181,108]
-colours['🌞']=[190,154,55]
-colours['🌟']=[166,147,71]
-colours['🌠']=[117,136,128]
-colours['🌡']=[115,123,104]
-colours['🌤']=[168,162,110]
-colours['🌥']=[152,165,136]
-colours['🌦']=[153,170,147]
-colours['🌧']=[138,169,160]
-colours['🌨']=[138,170,163]
-colours['🌩']=[150,165,138]
-colours['🌪']=[107,134,123]
-colours['🌫']=[219,227,231]
-colours['🌬']=[122,152,136]
-colours['🌭']=[154,127,96]
-colours['🌮']=[166,146,74]
-colours['🌯']=[150,154,112]
-colours['🌰']=[150,94,66]
-colours['🌱']=[83,128,78]
-colours['🌲']=[76,118,62]
-colours['🌳']=[82,125,61]
-colours['🌴']=[89,120,71]
-colours['🌵']=[95,146,78]
-colours['🌶']=[119,96,75]
-colours['🌷']=[129,135,105]
-colours['🌸']=[179,146,136]
-colours['🌹']=[102,84,62]
-colours['🌺']=[180,143,129]
-colours['🌻']=[134,123,50]
-colours['🌼']=[135,158,125]
-colours['🌾']=[96,133,77]
-colours['🌿']=[95,132,83]
-colours['🍀']=[100,152,81]
-colours['🍁']=[143,79,72]
-colours['🍂']=[150,126,95]
-colours['🍃']=[109,157,105]
-colours['🍄']=[166,114,115]
-colours['🍅']=[173,72,71]
-colours['🍇']=[113,103,149]
-colours['🍈']=[121,167,103]
-colours['🍉']=[121,106,79]
-colours['🍊']=[186,133,31]
-colours['🍋']=[183,173,77]
-colours['🍍']=[118,137,72]
-colours['🍎']=[160,75,70]
-colours['🍏']=[99,148,78]
-colours['🍐']=[114,155,101]
-colours['🍒']=[115,91,66]
-colours['🍓']=[139,78,68]
-colours['🍔']=[176,135,100]
-colours['🍕']=[144,119,66]
-colours['🍖']=[133,118,81]
-colours['🍗']=[125,116,80]
-colours['🍘']=[131,97,75]
-colours['🍙']=[149,163,153]
-colours['🍚']=[170,141,136]
-colours['🍛']=[154,161,126]
-colours['🍜']=[173,156,118]
-colours['🍝']=[164,155,123]
-colours['🍞']=[192,169,132]
-colours['🍟']=[175,94,62]
-colours['🍠']=[148,110,81]
-colours['🍡']=[124,142,105]
-colours['🍢']=[112,132,107]
-colours['🍣']=[148,102,96]
-colours['🍤']=[187,143,70]
-colours['🍥']=[181,183,186]
-colours['🍦']=[146,154,97]
-colours['🍧']=[145,151,162]
-colours['🍨']=[114,140,135]
-colours['🍩']=[136,112,69]
-colours['🍪']=[171,139,109]
-colours['🍫']=[143,108,94]
-colours['🍬']=[142,100,89]
-colours['🍭']=[161,120,66]
-colours['🍮']=[144,143,107]
-colours['🍯']=[167,143,64]
-colours['🍰']=[182,179,149]
-colours['🍱']=[131,90,80]
-colours['🍲']=[106,119,84]
-colours['🍳']=[104,120,105]
-colours['🍴']=[102,134,115]
-colours['🍵']=[132,164,127]
-colours['🍼']=[133,158,144]
-colours['🍽']=[187,200,203]
-colours['🍿']=[172,150,125]
-colours['🎀']=[167,67,70]
-colours['🎁']=[202,145,102]
-colours['🎂']=[186,131,125]
-colours['🎃']=[177,117,27]
-colours['🎄']=[87,118,67]
-colours['🎅']=[201,158,127]
-colours['🎆']=[103,142,151]
-colours['🎇']=[101,141,154]
-colours['🎈']=[105,93,69]
-colours['🎉']=[136,100,85]
-colours['🎊']=[128,112,77]
-colours['🎋']=[95,112,68]
-colours['🎌']=[124,141,123]
-colours['🎍']=[114,149,88]
-colours['🎎']=[119,124,106]
-colours['🎏']=[144,144,141]
-colours['🎐']=[96,134,99]
-colours['🎑']=[103,141,137]
-colours['🎒']=[154,54,56]
-colours['🎓']=[74,92,72]
-colours['🎖']=[129,127,95]
-colours['🎗']=[139,143,74]
-colours['🎙']=[87,115,101]
-colours['🎛']=[160,168,174]
-colours['🎞']=[112,138,133]
-colours['🎟']=[144,84,78]
-colours['🎠']=[121,136,112]
-colours['🎡']=[113,132,126]
-colours['🎢']=[138,147,142]
-colours['🎣']=[79,115,107]
-colours['🎤']=[73,110,97]
-colours['🎥']=[71,95,82]
-colours['🎧']=[74,117,110]
-colours['🎨']=[158,138,106]
-colours['🎪']=[132,123,113]
-colours['🎫']=[140,164,152]
-colours['🎬']=[88,120,85]
-colours['🎭']=[134,156,138]
-colours['🎮']=[56,76,62]
-colours['🎯']=[185,117,128]
-colours['🎰']=[120,124,119]
-colours['🎱']=[77,90,88]
-colours['🎲']=[154,94,90]
-colours['🎳']=[94,107,99]
-colours['🎴']=[139,79,80]
-colours['🎵']=[81,141,152]
-colours['🎶']=[78,133,132]
-colours['🎷']=[136,138,80]
-colours['🎸']=[110,106,89]
-colours['🎹']=[120,126,132]
-colours['🎺']=[134,135,78]
-colours['🎻']=[120,120,70]
-colours['🎼']=[87,114,101]
-colours['🎽']=[103,157,173]
-colours['🎾']=[133,180,111]
-colours['🎿']=[126,151,151]
-colours['🏀']=[169,115,28]
-colours['🏁']=[108,131,118]
-colours['🏂']=[139,151,151]
-colours['🏃']=[116,125,75]
-colours['🏄']=[99,135,123]
-colours['🏅']=[127,145,110]
-colours['🏆']=[177,153,72]
-colours['🏇']=[112,111,77]
-colours['🏈']=[110,81,64]
-colours['🏉']=[142,175,180]
-colours['🏊']=[131,155,134]
-colours['🏋']=[118,122,74]
-colours['🏌']=[110,128,90]
-colours['🏍']=[85,120,86]
-colours['🏎']=[109,121,83]
-colours['🏏']=[122,116,87]
-colours['🏐']=[176,189,186]
-colours['🏑']=[121,108,73]
-colours['🏒']=[88,108,68]
-colours['🏓']=[153,92,80]
-colours['🏔']=[80,105,86]
-colours['🏕']=[130,143,77]
-colours['🏖']=[129,123,99]
-colours['🏗']=[112,88,71]
-colours['🏘']=[141,147,112]
-colours['🏙']=[96,122,137]
-colours['🏚']=[129,120,94]
-colours['🏛']=[138,157,152]
-colours['🏜']=[143,159,92]
-colours['🏝']=[112,130,85]
-colours['🏞']=[99,146,144]
-colours['🏟']=[129,144,141]
-colours['🏠']=[143,157,120]
-colours['🏡']=[148,165,119]
-colours['🏢']=[161,176,167]
-colours['🏣']=[144,166,172]
-colours['🏤']=[165,104,93]
-colours['🏥']=[142,176,191]
-colours['🏦']=[145,163,162]
-colours['🏨']=[177,179,151]
-colours['🏪']=[139,129,137]
-colours['🏫']=[172,178,149]
-colours['🏬']=[153,177,182]
-colours['🏭']=[144,85,84]
-colours['🏮']=[158,51,60]
-colours['🏯']=[131,139,125]
-colours['🏰']=[123,153,153]
-colours['🏳']=[147,170,157]
-colours['🏴']=[68,91,78]
-colours['🏵']=[203,147,52]
-colours['🏷']=[162,161,102]
-colours['🏸']=[90,129,116]
-colours['🏹']=[112,118,89]
-colours['🏺']=[100,94,69]
-colours['🏻']=[192,188,165]
-colours['🏼']=[190,179,135]
-colours['🏽']=[169,152,117]
-colours['🏾']=[142,121,83]
-colours['🏿']=[107,91,66]
-colours['🐀']=[95,112,99]
-colours['🐁']=[122,141,122]
-colours['🐂']=[133,110,80]
-colours['🐃']=[65,89,75]
-colours['🐄']=[91,116,100]
-colours['🐅']=[133,129,65]
-colours['🐆']=[139,142,72]
-colours['🐇']=[121,144,134]
-colours['🐈']=[154,149,76]
-colours['🐉']=[91,141,74]
-colours['🐊']=[79,124,70]
-colours['🐋']=[67,127,138]
-colours['🐌']=[157,141,104]
-colours['🐍']=[99,146,80]
-colours['🐎']=[108,104,74]
-colours['🐏']=[149,166,143]
-colours['🐐']=[135,160,141]
-colours['🐑']=[169,182,158]
-colours['🐒']=[143,112,83]
-colours['🐓']=[154,162,144]
-colours['🐔']=[138,148,122]
-colours['🐗']=[151,95,72]
-colours['🐘']=[131,153,153]
-colours['🐙']=[117,102,157]
-colours['🐚']=[141,164,155]
-colours['🐛']=[96,106,119]
-colours['🐜']=[60,85,69]
-colours['🐝']=[108,128,102]
-colours['🐞']=[111,74,69]
-colours['🐟']=[72,134,149]
-colours['🐠']=[175,158,70]
-colours['🐡']=[132,119,88]
-colours['🐢']=[77,123,69]
-colours['🐣']=[181,174,110]
-colours['🐤']=[153,149,73]
-colours['🐥']=[168,157,73]
-colours['🐦']=[143,85,69]
-colours['🐧']=[133,143,122]
-colours['🐨']=[107,134,124]
-colours['🐩']=[105,133,120]
-colours['🐪']=[126,108,77]
-colours['🐫']=[131,108,77]
-colours['🐬']=[69,129,151]
-colours['🐭']=[132,143,139]
-colours['🐮']=[189,172,166]
-colours['🐯']=[179,162,104]
-colours['🐰']=[125,144,133]
-colours['🐱']=[192,167,78]
-colours['🐲']=[92,142,75]
-colours['🐳']=[67,130,151]
-colours['🐴']=[145,103,77]
-colours['🐵']=[151,119,93]
-colours['🐶']=[141,114,90]
-colours['🐷']=[205,138,145]
-colours['🐸']=[128,173,110]
-colours['🐹']=[208,163,100]
-colours['🐺']=[112,135,126]
-colours['🐻']=[166,111,86]
-colours['🐼']=[164,172,166]
-colours['🐽']=[137,125,106]
-colours['🐾']=[79,89,59]
-colours['🐿']=[133,115,73]
-colours['👀']=[158,177,167]
-colours['👁']=[115,134,111]
-colours['👂']=[170,163,82]
-colours['👃']=[151,156,81]
-colours['👄']=[131,104,89]
-colours['👅']=[130,94,80]
-colours['👆']=[148,157,83]
-colours['👇']=[148,157,83]
-colours['👈']=[148,157,83]
-colours['👉']=[148,157,83]
-colours['👊']=[175,166,83]
-colours['👋']=[176,177,102]
-colours['👌']=[147,154,82]
-colours['👍']=[181,169,84]
-colours['👎']=[181,169,84]
-colours['👏']=[202,173,83]
-colours['👐']=[149,155,82]
-colours['👑']=[189,158,73]
-colours['👒']=[136,147,103]
-colours['👓']=[69,111,97]
-colours['👔']=[136,148,190]
-colours['👕']=[64,131,162]
-colours['👖']=[63,122,133]
-colours['👗']=[79,143,161]
-colours['👘']=[80,139,163]
-colours['👚']=[120,122,148]
-colours['👛']=[201,99,109]
-colours['👜']=[138,116,160]
-colours['👝']=[121,160,105]
-colours['👞']=[97,99,69]
-colours['👟']=[128,103,93]
-colours['👠']=[105,87,70]
-colours['👡']=[110,106,77]
-colours['👢']=[132,102,73]
-colours['👣']=[85,76,50]
-colours['👤']=[49,106,120]
-colours['👥']=[62,125,145]
-colours['👦']=[197,170,75]
-colours['👧']=[200,168,73]
-colours['👨']=[191,167,74]
-colours['👩']=[204,165,69]
-colours['👪']=[221,174,83]
-colours['👫']=[154,143,93]
-colours['👬']=[132,145,95]
-colours['👭']=[166,141,89]
-colours['👮']=[111,134,104]
-colours['👯']=[129,131,72]
-colours['👰']=[223,211,171]
-colours['👱']=[189,179,65]
-colours['👲']=[148,140,80]
-colours['👳']=[166,153,102]
-colours['👴']=[188,179,94]
-colours['👵']=[153,151,98]
-colours['👶']=[185,171,82]
-colours['👷']=[163,162,82]
-colours['👸']=[201,166,76]
-colours['👹']=[126,77,67]
-colours['👺']=[155,94,90]
-colours['👻']=[152,171,162]
-colours['👼']=[175,173,117]
-colours['👽']=[138,156,151]
-colours['👾']=[76,88,100]
-colours['👿']=[147,127,188]
-colours['💀']=[143,161,156]
-colours['💁']=[186,147,71]
-colours['💂']=[93,97,71]
-colours['💃']=[126,107,72]
-colours['💄']=[151,121,86]
-colours['💅']=[139,121,85]
-colours['💆']=[184,154,75]
-colours['💇']=[164,144,81]
-colours['💈']=[117,139,123]
-colours['💋']=[146,78,71]
-colours['💌']=[168,156,153]
-colours['💍']=[97,136,124]
-colours['💎']=[93,148,156]
-colours['💏']=[196,148,73]
-colours['💐']=[117,125,70]
-colours['💑']=[202,146,81]
-colours['💓']=[163,83,72]
-colours['💔']=[162,71,71]
-colours['💕']=[143,79,72]
-colours['💖']=[178,81,72]
-colours['💗']=[181,114,114]
-colours['💘']=[171,94,70]
-colours['💙']=[85,153,183]
-colours['💚']=[103,155,84]
-colours['💛']=[193,173,84]
-colours['💜']=[137,132,168]
-colours['💝']=[192,123,88]
-colours['💞']=[158,85,81]
-colours['💟']=[229,125,139]
-colours['💠']=[83,143,156]
-colours['💡']=[144,155,104]
-colours['💢']=[105,87,68]
-colours['💣']=[67,84,67]
-colours['💤']=[69,117,102]
-colours['💥']=[131,97,72]
-colours['💧']=[79,136,141]
-colours['💨']=[144,179,180]
-colours['💩']=[150,112,90]
-colours['💪']=[178,173,85]
-colours['💫']=[134,140,82]
-colours['💬']=[145,181,185]
-colours['💭']=[139,174,173]
-colours['💮']=[186,142,138]
-colours['💯']=[126,70,64]
-colours['💰']=[171,167,111]
-colours['💱']=[68,98,76]
-colours['💳']=[166,142,79]
-colours['💴']=[216,184,115]
-colours['💵']=[145,177,108]
-res = 61,33
-def getcolorforrange(r, g, b):
-    closestint = 100000
-    closestcolour = ""
-    for i in colours.items():
-        totalint = ( ((r - i[1][0])**2) + ((g - i[1][1])**2) + ((b - i[1][2])**2) )
-        if totalint < closestint:
-            closestint = totalint
-            closestcolour = i[0]
-    return closestcolour
-import uvicorn
-def turnascii(img):
-    w,h = res
-    returnmessage = ""
-    for y in range(h):
-        for x in range(w):
-            r, g, b = img.getpixel((x, y))
+<script src="/web/20100218021241js_/http://www.roblox.com/ScriptResource.axd?d=4DlCiUcqgNm3rwxw-XjB1CYLJrM0XaBGHo4L76RYUgyUk09px-Hx5XU-TWC-cotdFySkM8v436LkzfrLOqd7373bT4CW_pWJ3Mfc0Sl5Qz7X8fbWFzsX8DHdHcxJ--BfzyNozltU2Ahoo6bwCXwYeMNu5w53TH2M9wRJDEVHrNae99xGnh7Wh8WChY5WzN6ngorTcWJfB_8YDDW157OEnow6l50tPiHTpw6HnHrShJtTQqOdCTFyeo0e-KfmnVd_6XXPySRKw4ur2DgJNWo_8A2" type="text/javascript"></script>
+<script src="/web/20100218021241js_/http://www.roblox.com/ScriptResource.axd?d=ct_rRJZva00_Q0Q4DGQQwPHr2_-kPVSEhjNkU599raKVZV3UuOrIZK_g83hMg0qqdYwWW2E7ob-YIw0aYzX4k9SuVlgusritaJ4HR-MAWqSVG-v_FLwkxsb167Ea9zyi0" type="text/javascript"></script>
+<script src="/web/20100218021241js_/http://www.roblox.com/Thumbs/Asset.asmx/js" type="text/javascript"></script>
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBALxzOukCwLjvtEjArL5/PEFAsHjqsEPpyoiLKXsxcA6AY9dklEWM+EfhMY=">
+    
+    
+    
+    <div id="MasterContainer">
+        <div id="Container">
+            
+    <div id="AdvertisingLeaderboard">
+        
 
-            returnmessage = returnmessage + getcolorforrange(r,g,b)
-        returnmessage = returnmessage + "\n"
-    return returnmessage
-b = ""
-start_server = ''
-print('j')
-@app.get("/", response_class=fastapi.responses.HTMLResponse)
-def read_root():
-    b = turnascii(ImageGrab.grab().resize(res, 5))
-    return b
-uvicorn.run(app, host="127.0.0.1", port=8002, log_level="info")
+<div style="overflow: hidden;">
+    
+<div id="ctl00_cphBannerAd_HomeTopBannerAd_OutsideAdPanel" class="AdPanel">
+	
+            <iframe id="ctl00_cphBannerAd_HomeTopBannerAd_AsyncAdIFrame" allowtransparency="true" frameborder="0" scrolling="no" height="90" src="/web/20100218021241if_/http://www.roblox.com/Ads/IFrameAdContent.aspx?slot=Roblox_Home_Top_728x90" width="728"></iframe>
+
+</div>
+            <a id="ctl00_cphBannerAd_HomeTopBannerAd_ReportAdButton" title="click to report an offensive ad" class="BadAdButton" href="javascript:__doPostBack('ctl00$cphBannerAd$HomeTopBannerAd$ReportAdButton','')">[ report ]</a>
+            
+        
+</div>
+    </div>
+
+            <div id="Header">
+                <div id="Banner">
+                    
+                            
+
+<div id="Options">
+	<div id="Authentication">
+		<span><a id="ctl00_BannerOptionsLoginView_BannerOptions_Anonymous_LoginHyperLink" href="Login/Default.aspx">Login</a></span>
+	</div>
+	<div id="Settings"></div>
+</div>
+                            <a id="Logo" href="/web/20100218021241/http://www.roblox.com/Default.aspx" style="cursor: pointer; border: none;"></a>
+                        
+                    
+                            
+<div style="float: right; width: 203px;">
+    <a id="ctl00_BannerAlertsLoginView_BannerAlerts_Anonymous_rbxAlerts_SignupAndPlayHyperLink" class="SignUpAndPlay" text="Sign-up and Play!" href="/web/20100218021241/http://www.roblox.com/Games.aspx" style="display:inline-block;cursor:pointer;"><img src="/web/20100218021241im_/http://www.roblox.com/images/Holiday3Button.png" border="0" onerror="return Roblox.Controls.Image.OnError(this)"></a>
+
+
+</div>
+
+                        
+                </div>
+                
+<div class="Navigation">
+    <ul id="ctl00_Menu_MenuUL">
+        
+                <li>
+                    <a id="ctl00_Menu_hlMyRobloxLink_hlMyRoblox" href="My/Home.aspx" style="">My ROBLOX</a></li>
+            
+        <li><a id="hlGames" href="/web/20100218021241/http://www.roblox.com/Games.aspx" style="" title="Games">Games</a>
+            <!--
+            <ul>
+                <li>
+                    <div class="dropdownmainnav">
+                        
+                                <div style="float: left; width: 50%; text-align: left;">
+                                    <img src="/images/GenreIconsInverted/Classic.png" />
+                                    <a href='/all-games'
+                                        title="All" style="padding: 0; margin: 0 2px 0 0; border: none; font-size: 15px;">
+                                        All</a>
+                                </div>
+                            
+                                <div style="float: left; width: 50%; text-align: left;">
+                                    <img src="/images/GenreIconsInverted/City.png" />
+                                    <a href='/town-and-city-games'
+                                        title="Town and City" style="padding: 0; margin: 0 2px 0 0; border: none; font-size: 15px;">
+                                        Town and City</a>
+                                </div>
+                            
+                                <div style="float: left; width: 50%; text-align: left;">
+                                    <img src="/images/GenreIconsInverted/Castle.png" />
+                                    <a href='/medieval-games'
+                                        title="Medieval" style="padding: 0; margin: 0 2px 0 0; border: none; font-size: 15px;">
+                                        Medieval</a>
+                                </div>
+                            
+                                <div style="float: left; width: 50%; text-align: left;">
+                                    <img src="/images/GenreIconsInverted/SciFi.png" />
+                                    <a href='/sci-fi-games'
+                                        title="Sci-Fi" style="padding: 0; margin: 0 2px 0 0; border: none; font-size: 15px;">
+                                        Sci-Fi</a>
+                                </div>
+                            
+                                <div style="float: left; width: 50%; text-align: left;">
+                                    <img src="/images/GenreIconsInverted/Ninja.png" />
+                                    <a href='/ninja-games'
+                                        title="Ninja" style="padding: 0; margin: 0 2px 0 0; border: none; font-size: 15px;">
+                                        Ninja</a>
+                                </div>
+                            
+                                <div style="float: left; width: 50%; text-align: left;">
+                                    <img src="/images/GenreIconsInverted/Cthulu.png" />
+                                    <a href='/scary-games'
+                                        title="Horror" style="padding: 0; margin: 0 2px 0 0; border: none; font-size: 15px;">
+                                        Horror</a>
+                                </div>
+                            
+                                <div style="float: left; width: 50%; text-align: left;">
+                                    <img src="/images/GenreIconsInverted/Pirate.png" />
+                                    <a href='/pirate-games'
+                                        title="Pirate" style="padding: 0; margin: 0 2px 0 0; border: none; font-size: 15px;">
+                                        Pirate</a>
+                                </div>
+                            
+                                <div style="float: left; width: 50%; text-align: left;">
+                                    <img src="/images/GenreIconsInverted/Adventure.png" />
+                                    <a href='/adventure-games'
+                                        title="Adventure" style="padding: 0; margin: 0 2px 0 0; border: none; font-size: 15px;">
+                                        Adventure</a>
+                                </div>
+                            
+                                <div style="float: left; width: 50%; text-align: left;">
+                                    <img src="/images/GenreIconsInverted/Sports.png" />
+                                    <a href='/sports-games'
+                                        title="Sports" style="padding: 0; margin: 0 2px 0 0; border: none; font-size: 15px;">
+                                        Sports</a>
+                                </div>
+                            
+                                <div style="float: left; width: 50%; text-align: left;">
+                                    <img src="/images/GenreIconsInverted/LOL.png" />
+                                    <a href='/funny-games'
+                                        title="LOL" style="padding: 0; margin: 0 2px 0 0; border: none; font-size: 15px;">
+                                        LOL</a>
+                                </div>
+                            
+                                <div style="float: left; width: 50%; text-align: left;">
+                                    <img src="/images/GenreIconsInverted/WildWest.png" />
+                                    <a href='/wild-west-cowboy-games'
+                                        title="Wild West" style="padding: 0; margin: 0 2px 0 0; border: none; font-size: 15px;">
+                                        Wild West</a>
+                                </div>
+                            
+                                <div style="float: left; width: 50%; text-align: left;">
+                                    <img src="/images/GenreIconsInverted/ModernMilitary.png" />
+                                    <a href='/war-games'
+                                        title="Modern Military" style="padding: 0; margin: 0 2px 0 0; border: none; font-size: 15px;">
+                                        Modern Military</a>
+                                </div>
+                            
+                    </div>
+                </li>
+            </ul>
+            !-->
+        </li>
+        <li><a id="hlCatalog" href="/web/20100218021241/http://www.roblox.com/Catalog.aspx" style="" title="Catalog">Catalog</a></li>
+        <li><a id="hlBrowse" href="/web/20100218021241/http://www.roblox.com/Browse.aspx" style="" title="People">People</a></li>
+        <li><a id="hlBuildersClub" href="/web/20100218021241/http://www.roblox.com/Upgrades/BuildersClub.aspx" style="" title="Builders Club">Builders Club</a></li>
+        <li id="ctl00_Menu_ContestsMenuTab"><a id="hlContests" href="/web/20100218021241/http://www.roblox.com/Contests/" style="" title="Contests">Contests</a></li>
+        <li><a id="hlForum" onclick="" href="/web/20100218021241/http://www.roblox.com/Forum/Default.aspx" style="" title="Forum">Forum</a></li>
+        <li><a id="hlNews" href="https://web.archive.org/web/20100218021241/http://blog.roblox.com/" target="_blank" title="News">News</a><a id="hlNewsFeed" href="https://web.archive.org/web/20100218021241/http://blog.roblox.com/?feed=rss" title="RSS" class="icons rss_icon" style="padding: 0; margin: 0 2px 0 0; border: none;"></a><a id="h1Twitter" href="https://web.archive.org/web/20100218021241/http://www.twitter.com/roblox" target="_blank" title="The ROBLOX Twitter Feed" class="icons twitter_icon" style="padding: 0;
+                margin: 0 4px 0 0; border: none;"></a></li>
+        <li><a id="hlParents" href="/web/20100218021241/http://www.roblox.com/Parents.aspx" style="" title="Parents">Parents</a></li>
+        <li><a id="hlHelp" href="/web/20100218021241/http://www.roblox.com/Help/Builderman.aspx" style="" title="Help">Help</a></li>
+    </ul>
+</div>
+
+            </div>
+            <div id="ctl00_Announcement">
+	
+                <div class="SystemAlert">
+                    <div id="ctl00_SystemAlertTextColor" class="SystemAlertText">
+                        <div class="Exclamation">
+                        </div>
+                        <div id="ctl00_LabelAnnouncement">Are you an experienced Robloxian? Help us out at test.roblox.com</div>
+                    </div>
+                </div>
+            
+</div>
+            <div id="Body">
+                
+    
+    
+    <style>
+
+        /* override 2 column layout classes for this page only because the front page requires a wider right column */
+        .Column1c
+        {
+        	font-family: Verdana;
+            width: 570px;
+            float: left;
+        }
+
+        .Column2c
+        {
+        	font-family: Verdana;
+            width: 310px;
+            float: right;
+        }
+
+        .Column1c .ShadowedStandardBox
+        {
+            width:561px;
+        }
+
+        .Column1c .ShadowedStandardBoxHeader
+        {
+            width:551px;
+        }
+
+        .Column2c .ShadowedStandardBox
+        {
+            width:310px;
+        }
+
+        .Column2c .ShadowedStandardBoxHeader
+        {
+            width:300px;
+        }
+        
+    </style>
+<!--[if IE 6]>
+<table width="900px">
+<tr>
+<td width="550px" align="left" valign="top">
+<![endif]-->
+    <!-- left column -->
+    <div class="Column1c">
+    
+        <div class="ShadowedStandardBox">
+           <div class="Shadow"></div>
+           <!-- <div class="Header">Welcome</div> -->
+           <div class="Content" style="height: 252px; padding: 8px 8px 8px 8px;">
+ 
+                <div style="float: left;">
+                    
+<div id="LoginViewContainer">
+    
+
+            <script type="text/javascript" language="javascript">
+                function dologin() {
+                    document.getElementById("username").value = document.getElementById("txtUsername").value;
+                    document.getElementById("password").value = document.getElementById("txtPassword").value;
+                    document.forms[1].submit();
+                }
+            </script>
+
+            <div class="DarkGradientBox" style="height: 246px; text-align: center;">
+                <div class="DGB_Header">
+                    Member Login
+                </div>
+                <div class="DGB_Content">
+                    <!-- Enter key submission hack - IE -->
+                    <div style="padding-top: 4px; padding-bottom: 4px;">
+                        <div style="margin-bottom: 7px;">
+                        </div>
+                        <label for="txtUsername" class="DGB_Label">
+                            Username:
+                            <input type="text" style="width: 120px;" class="DGB_TextBox" id="txtUsername" tabindex="1">
+                    </label></div>
+                    <div style="padding-top: 4px; padding-bottom: 4px;">
+                        <div style="margin-bottom: 7px;">
+                        </div>
+                        <label for="txtPassword" class="DGB_Label">
+                            Password:</label>
+                        <input type="password" style="width: 120px;" onkeypress="if (event.which || event.keyCode){if ((event.which == 13) || (event.keyCode == 13)) {dologin(); return false;} else {return true;}}" id="txtPassword" class="DGB_TextBox" tabindex="2">
+                    </div>
+                    <div style="margin-top: 9px; text-align: center;">
+                        <a class="DGB_Button" style="padding: 6px 0px 6px 0px; display: block; width: 110px; margin: 0 auto;" onclick="dologin(); return false;" href="#" tabindex="3">Login</a>
+                    </div>
+                    <div id="ctl00_cphRoblox_rbxLoginView_lvLoginView_RegisterDiv" style="margin-bottom: 10px; margin-top: 4px; text-align: center;">
+                        <a href="Login/NewAge.aspx" id="ctl00_cphRoblox_rbxLoginView_lvLoginView_Register" class="DGB_Button" style="padding: 6px 0px 6px 0px; display: block; width: 110px; margin: 0 auto;" tabindex="5" target="_parent">Register</a>
+                    </div>
+                    <div style="margin-top: 8px; margin-bottom: 7px; text-align: center; white-space: nowrap;">
+                        <a href="Parents/Login.aspx" id="ctl00_cphRoblox_rbxLoginView_lvLoginView_ParentLogin" style="color: #FFFFFF; font-weight: bold; font-size: 10px;" tabindex="6" target="_parent">Parent Login</a>
+                    </div>
+                    <div style="margin-top: 8px; margin-bottom: 7px; text-align: center; white-space: nowrap;">
+                        <a href="Login/ResetPasswordRequest.aspx" id="ctl00_cphRoblox_rbxLoginView_lvLoginView_hlPasswordRecovery" style="color: #FFFFFF; font-weight: bold; font-size: 10px;" tabindex="7" target="_parent">
+                            Forgot your password?</a>
+                    </div>
+                </div>
+            </div>
+        
+</div>
+
+                </div>
+                
+                <div style="float: right;">
+                    <object style="width: 380px; height: 250px;">
+                        <param name="movie" value="http://www.youtube.com/v/OBUlpvyInzg&amp;hl=en&amp;fs=1&amp;rel=0&amp;color1=0x3a3a3a&amp;color2=0x999999">
+                        <param name="allowFullScreen" value="true">
+                        <param name="allowscriptaccess" value="always">
+                        <embed src="https://web.archive.org/web/20100218021241oe_/http://www.youtube.com/v/OBUlpvyInzg&amp;hl=en&amp;fs=1&amp;rel=0&amp;color1=0x3a3a3a&amp;color2=0x999999" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="380" height="250">
+                    </object>
+                </div>      
+               
+           </div>
+        </div>
+
+        <div class="ShadowedStandardBox">
+           <div class="Shadow"></div>
+           <!-- <div class="Header">Games</div> -->
+           <div class="Content" style="height: 459px; padding: 0px 0px 0px 0px;">
+           
+                <div style="margin-top: 5px; margin-left: 3px; width: 550px;">
+                    
+        <a id="ctl00_cphRoblox_MoneyMachine_PlayNowButton" href="Games.aspx"><img src="/web/20100218021241im_/http://www.roblox.com/images/SalesPitcher/PlayNow3.png" border="0"></a>   
+       
+                </div>
+                
+                <div style="margin-left: 7px; margin-top: 20px; width: 541px;">
+                    
+
+<style>
+    .PlaceStatLabel
+    {
+	    /* intentionally empty */
+    }
+    .PlaceStatValue
+    {
+    	/* color: #888; */    	
+        margin-left: 15px;
+        font-weight: bold;
+    }
+</style>
+
+<div>
+    <div class="OutlineBox" style="height: 250px;">
+        <div class="OB_HeaderPositioner"><div class="OB_Header"><div style="overflow:hidden; white-space: nowrap;"><span style="font-size: 12px;">Featured Free Game: </span><span id="ctl00_cphRoblox_FeaturedGames_GameName">place closed due to a hacker. ...</span></div></div></div>
+        <div class="OB_Content">
+            <div style="float: left;">
+                <div class="ShadowedStandardBox" style="width: 420px; height: 230px; margin: 0px 8px 0px 5px; ">
+                    <div class="Shadow"></div>
+                    <a id="ctl00_cphRoblox_FeaturedGames_AssetThumbnailImage" disabled="disabled" title="place closed due to a hacker. i ran out of ideas - a ROBLOX free game" href="/web/20100218021241/http://www.roblox.com/place-closed-due-to-a-hacker-i-ran-out-of-ideas-item?id=12090232" style="display:inline-block;"><img src="https://web.archive.org/web/20100218021241im_/http://t0bg.roblox.com/c3267171af199614c212c437beb6b59b" border="0" onerror="return Roblox.Controls.Image.OnError(this)" alt="place closed due to a hacker. i ran out of ideas - a ROBLOX free game"></a>
+                </div>
+            </div>
+            <div style="float: left; font-size:10px; width: 100px; white-space: nowrap; overflow: hidden;">   
+                <div style="margin-bottom: 7px;"><a id="ctl00_cphRoblox_FeaturedGames_PlayThis" title="Play this free game!" href="/web/20100218021241/http://www.roblox.com/place-closed-due-to-a-hacker-i-ran-out-of-ideas-item?id=12090232"><img title="Play this free game!" src="/web/20100218021241im_/http://www.roblox.com/images/PlayThis.png?v=2" border="0"></a></div>
+                <div id="LastUpdateLabelDiv" class="PlaceStatLabel">Updated:</div>
+                <div id="LastUpdate" class="PlaceStatValue">3 hours ago</div>
+                <div id="FavoritedLabelDiv" class="PlaceStatLabel">Favorited:</div>
+                <div id="Favorited" class="PlaceStatValue">3,150 times</div>
+                <div id="VisitedPanelLabelDiv" class="PlaceStatLabel">Visited:</div>
+                <div id="ctl00_cphRoblox_FeaturedGames_VisitedPanel" class="Visited PlaceStatValue">16,334 times</div>
+                <div id="CreatorAvatar" style="margin-top: 7px;">
+                    <div class="Avatar">
+                        <a id="ctl00_cphRoblox_FeaturedGames_AvatarImage" title="MirrorMage" href="/web/20100218021241/http://www.roblox.com/User.aspx?ID=2428666" style="display:inline-block;cursor:pointer;"><img src="https://web.archive.org/web/20100218021241im_/http://t3bg.roblox.com/bd3885ec6ea845e94fec75557ca84839" border="0" onerror="return Roblox.Controls.Image.OnError(this)" alt="MirrorMage"></a>
+                    </div>
+                </div>
+                <div id="CreatorLabelDiv" class="PlaceStatLabel">By: <a id="ctl00_cphRoblox_FeaturedGames_CreatorHyperLink" href="User.aspx?ID=2428666">MirrorMage</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                </div>    
+                    
+           </div>
+        </div>
+
+    </div>  
+    <!--[if IE 6]>
+</td>
+<td valign="top" align="left">
+<![endif]-->
+    <!-- right column -->
+    <div class="Column2c">
+        
+        <div style="height: 282px;">
+            <div class="ShadowedStandardBox" style="float:left;" id="FrontPageRectangleAd">
+                <div class="Shadow"></div>
+                
+
+<div style="overflow: hidden;">
+    
+<div id="ctl00_cphRoblox_LargeRectAd_OutsideAdPanel" class="AdPanel">
+	
+            <iframe id="ctl00_cphRoblox_LargeRectAd_AsyncAdIFrame" allowtransparency="true" frameborder="0" scrolling="no" height="250" src="/web/20100218021241if_/http://www.roblox.com/Ads/IFrameAdContent.aspx?slot=Roblox_Home_Medium_Rectangle_300x250" width="300"></iframe>
+
+</div>
+            <a id="ctl00_cphRoblox_LargeRectAd_ReportAdButton" title="click to report an offensive ad" class="BadAdButton" href="javascript:__doPostBack('ctl00$cphRoblox$LargeRectAd$ReportAdButton','')">[ report ]</a>
+            
+        
+</div>
+            </div>
+        </div>
+
+        <div class="ShadowedStandardBox">
+           <div class="Shadow"></div>
+           <div class="Header">Parents</div>
+           <div class="Content" style="padding: 5px 5px 5px 5px;">
+           
+                <div>
+                    <div>          
+                        <div style="float: left; width: 195px;">
+                            ROBLOX IS a kid-friendly place on the internet where your children can exercise their creativity in a moderated online environment.
+                        </div>
+                        <div style="float: right; margin-left: 10px;">
+                        <a href="https://web.archive.org/web/20100218021241/http://www.truste.org/ivalidate.php?url=www.roblox.com&amp;sealid=105" id="ctl00_cphRoblox_TrusteeSeal"><img src="/web/20100218021241im_/http://www.roblox.com/images/TrusteVertical.png" id="ctl00_cphRoblox_TrusteLogo" height="60" border="0"></a>
+                        </div>
+                        <div style="float: right; margin-left: 10px;">
+                        <a target="_blank" href="https://web.archive.org/web/20100218021241/https://www.bbb.org/online/consumer/cks.aspx?id=109111915116750"><img height="60" title="Click to verify BBB accreditation and to see a BBB report." border="0" src="/web/20100218021241im_/http://www.roblox.com/images/bbbseal1US.gif" alt="Click to verify BBB accreditation and to see a BBB report."></a>
+                        </div>
+                    </div>
+                    <div style="clear: both; margin-top: 10px;">
+                    <div style="margin: 2px 0px; float: left;">ROBLOX IS NOT affiliated with K'Nex, The LEGO Group, or MEGA Brands.</div>
+                        <a id="ctl00_cphRoblox_LearnMore" class="Button" href="Parents.aspx" style="display:inline-block;padding-left: 8px; padding-right: 8px;">Learn More</a>
+                        <a id="ctl00_cphRoblox_AccessParentAccount" class="Button" href="Parents/Login.aspx" style="display:inline-block;padding-left: 8px; padding-right: 8px;">Parent Account</a>
+                        <a id="ctl00_cphRoblox_PrivacyPolicy" class="Button" href="info/Privacy.aspx" style="display:inline-block;padding-left: 8px; padding-right: 8px;">Privacy Policy</a>
+                    </div>
+                    
+                </div>
+                             
+           </div>
+        </div>
+        
+        <div class="ShadowedStandardBox">
+           <div class="Shadow"></div>
+           <div class="Header">Roblox Stats</div>
+           <div class="Content" style="height: 103px;">
+           
+                <div class="Centered">
+                    <div id="RandomFactsContainer">
+                        <div id="ctl00_cphRoblox_RandomFacts_pRandomFacts">
+	
+
+    <!-- Print the JavaScript arrays of facts onto the page -->
+    <script>var randomFactsImagePathArray = ['images/RandomFactsIcons/Shield.png','images/RandomFactsIcons/Admin.png','images/RandomFactsIcons/Shirt.png','images/RandomFactsIcons/House.png','images/RandomFactsIcons/Pants.png','images/RandomFactsIcons/Bux.png','images/RandomFactsIcons/House.png','images/RandomFactsIcons/ShoppingBag.png'];var randomFactsTextArray = [' there are <b>216419</b> <a href="Parents.aspx">parents</a> keeping track of their kids on ROBLOX',' <b>10</b> forum moderators are providing help in the forums',' <b>309</b> <a href="Catalog.aspx?m=BestSelling&c=11&t=PastWeek&d=All&q=assassin">deadly <b>assassin</b> robes</a> are available in the shirts section of the catalog','<a href="/VILLAGE-LIFE-SUPER-VIP-SALE-AGAIN-UPDATES-item?id=13781514"><b>☆ VILLAGE LIFE ☆™(SUPER VIP SALE ...</b></a> has been favorited <b>31889</b> times today',' <b>149</b> <a href="Catalog.aspx?m=BestSelling&c=12&t=PastWeek&d=All&q=pirate">articles of <b>pirate</b> gear</a> are available in the pants section of the catalog',' 100 ROBUX buys about <b>893</b> tickets on the <a href="Marketplace/TradeCurrency.aspx">Currency Exchange</a> right now','<a href="/FUN-RIDES-item?id=21468431"><b>FUN RIDES!!! </b></a> has been visited <b>22598</b> times today',' the average bid for a user-run <b>banner</b> ad is <b>3849</b> tickets'];</script>
+    
+    <style>
+        .RandomFactContainer
+        {
+        	width: 250px;
+        	height: 50px;            	
+            margin: 5px 5px 5px 5px;
+        }
+        .RandomFactImageContainer
+        {
+        	float: left;
+        	width: 32px;
+        	height: 32px;
+        }
+        .RandomFactTextContainer
+        {
+        	float: right;
+        	width: 200px;
+        	text-align: center;
+        }
+    </style>
+    
+    <div style="position: relative; width: 100%; height: 100%;">
+        <div id="RandomFactContainer1" class="RandomFactContainer" style="position: absolute; top: 3px;">
+            <div id="RandomFactImageContainer1" class="RandomFactImageContainer">
+                <img id="RandomFactImage1" src="/web/20100218021241im_/http://www.roblox.com/images/RandomFactsIcons/Admin.png">
+            </div>
+            <div id="RandomFactTextContainer1" class="RandomFactTextContainer">
+            </div>
+        </div>
+    
+        <div id="RandomFactContainer2" class="RandomFactContainer" style="position: absolute; top: 53px;">
+            <div id="RandomFactImageContainer2" class="RandomFactImageContainer">
+                <img id="RandomFactImage2" src="/web/20100218021241im_/http://www.roblox.com/images/RandomFactsIcons/Admin.png">
+            </div>
+            <div id="RandomFactTextContainer2" class="RandomFactTextContainer">
+            </div>
+        </div>
+    </div>      
+    
+    <script>
+
+        var randomFactsUpdateInterval = 200;
+        var randomFactsUpdateCounterMax = 10;
+        var randomFactsStartTime = 0;
+        var randomFactsCurrentState = 0;
+      
+        var currentRandomFactIndex = 0;
+
+        function getNextRandomFactIndex() {
+            var nextRandomFactIndex = currentRandomFactIndex;
+            
+            currentRandomFactIndex++;
+            currentRandomFactIndex %= randomFactsTextArray.length;
+            
+            return nextRandomFactIndex;
+        }
+
+        function updateRandomFact(randomFactDivNumber) {
+            var nextRandomFactIndex = getNextRandomFactIndex();
+            document.getElementById("RandomFactImage" + randomFactDivNumber).src = randomFactsImagePathArray[nextRandomFactIndex];
+            document.getElementById("RandomFactTextContainer" + randomFactDivNumber).innerHTML = randomFactsTextArray[nextRandomFactIndex];
+        }
+
+        function updateRandomFactsControl() {
+            var currentDate = new Date();
+            randomFactsTimeElapsed = (currentDate.getTime() - randomFactsStartTime) % 16000;
+        
+            if ((randomFactsTimeElapsed >= 0 && randomFactsTimeElapsed < 4000) && randomFactsCurrentState != 0) {
+                
+                randomFactsCurrentState = 0;
+            }
+            else if ((randomFactsTimeElapsed >= 4000 && randomFactsTimeElapsed < 8000) && randomFactsCurrentState != 1) {
+                //1 out
+                $("#RandomFactContainer1").fadeOut(2000);
+
+                randomFactsCurrentState = 1;
+            }
+            else if ((randomFactsTimeElapsed >= 8000 && randomFactsTimeElapsed < 12000) && randomFactsCurrentState != 2) {
+                //1 in
+                updateRandomFact("1");
+                $("#RandomFactContainer1").fadeIn(2000);
+
+                //2 out
+                $("#RandomFactContainer2").fadeOut(2000);
+
+                randomFactsCurrentState = 2;
+            }
+            else if ((randomFactsTimeElapsed >= 12000 && randomFactsTimeElapsed < 16000) && randomFactsCurrentState != 3) {
+                //2 in
+                updateRandomFact("2");
+                $("#RandomFactContainer2").fadeIn(2000);
+            
+                randomFactsCurrentState = 3;
+            }
+        }
+
+        $(document).ready(function() {
+            updateRandomFact("1");
+            updateRandomFact("2");           
+            
+            var currentDate = new Date();
+            randomFactsStartTime = currentDate.getTime();
+
+            setInterval(updateRandomFactsControl, randomFactsUpdateInterval);
+        });
+        
+    </script>  
+        
+
+</div>
+
+                    </div>
+                </div>
+                             
+           </div>
+        </div>
+        
+        <div class="ShadowedStandardBox">
+            <div class="Shadow"></div>
+            <div class="Header">Roblox News</div>
+            <div class="Content" style="height: 103px;">
+           
+                <div class="Centered" style="width: 280px;">
+	                <div id="NewsFeeder" style="width: 100%;">
+	                    <div id="ctl00_cphRoblox_NewsFeed_pRobloxNews">
+	
+    
+    <div id="RobloxNews" style="float: none; width: 100%; overflow: visible; font-size: 11px;">
+        <div style="margin-bottom: 15px;">
+            
+                
+                    <div style="background: url(/web/20100218021241im_/http://www.roblox.com/images/BulletPointArrow.png) no-repeat center left; padding-left: 13px; margin-bottom: 4px;">
+                        <a id="ctl00_cphRoblox_NewsFeed_dlNews_ctl01_NewsItemHyperLink" href="https://web.archive.org/web/20100218021241/http://blog.roblox.com/?p=2087">Happy President’s Day</a>
+                    </div>
+                
+                    <div style="background: url(/web/20100218021241im_/http://www.roblox.com/images/BulletPointArrow.png) no-repeat center left; padding-left: 13px; margin-bottom: 4px;">
+                        <a id="ctl00_cphRoblox_NewsFeed_dlNews_ctl02_NewsItemHyperLink" href="https://web.archive.org/web/20100218021241/http://blog.roblox.com/?p=2083">Interview with Erik Cassel</a>
+                    </div>
+                
+                    <div style="background: url(/web/20100218021241im_/http://www.roblox.com/images/BulletPointArrow.png) no-repeat center left; padding-left: 13px; margin-bottom: 4px;">
+                        <a id="ctl00_cphRoblox_NewsFeed_dlNews_ctl03_NewsItemHyperLink" href="https://web.archive.org/web/20100218021241/http://blog.roblox.com/?p=2074">Holiday Weekend</a>
+                    </div>
+                
+                    <div style="background: url(/web/20100218021241im_/http://www.roblox.com/images/BulletPointArrow.png) no-repeat center left; padding-left: 13px; margin-bottom: 4px;">
+                        <a id="ctl00_cphRoblox_NewsFeed_dlNews_ctl04_NewsItemHyperLink" href="https://web.archive.org/web/20100218021241/http://blog.roblox.com/?p=2069">Wacky Wednesday</a>
+                    </div>
+                
+                
+        </div>
+        <div style="text-align: right;">
+            <a id="ctl00_cphRoblox_NewsFeed_PrivacyPolicy" class="Button" href="https://web.archive.org/web/20100218021241/http://blog.roblox.com/" style="display:inline-block;">More...</a>
+        </div>
+        
+    </div>
+
+</div>
+	                </div>
+                </div>
+                             
+            </div>            
+        </div>
+         
+    </div>    
+    
+    <!-- bottom of page (outside columns) -->
+    <!--
+    <div style="float:left; margin: 5px 2px 15px 2px;" id="FrontPageBannerAd">
+	    
+
+<div style="overflow: hidden;">
+    
+<div id="ctl00_cphRoblox_HomePageBottomBanner_OutsideAdPanel" class="AdPanel">
+	
+            <iframe id="ctl00_cphRoblox_HomePageBottomBanner_AsyncAdIFrame" allowtransparency="true" frameborder="0" scrolling="no" height="90" src="/Ads/IFrameAdContent.aspx?slot=Roblox_Default_Top_728x90" width="728"></iframe>
+
+</div>
+            <a id="ctl00_cphRoblox_HomePageBottomBanner_ReportAdButton" title="click to report an offensive ad" class="BadAdButton" href="javascript:__doPostBack('ctl00$cphRoblox$HomePageBottomBanner$ReportAdButton','')">[ report ]</a>
+            
+        
+</div>
+	</div>
+	-->
+    <!--[if IE 6]>
+</td>
+</tr>
+</table>
+<![endif]-->
+    <br clear="all">    
+    <img src="https://web.archive.org/web/20100218021241im_/http://media.fastclick.net/w/tre?ad_id=20713;evt=13114;cat1=14473;cat2=14474" id="ctl00_cphRoblox_fastclick" border="0" height="1" width="1">
+
+            </div>
+            
+<div id="Footer">
+    <hr>
+    <div class="FooterNav">
+        <a id="ctl00_rbxFooter_PrivacyHyperLink" href="/web/20100218021241/http://www.roblox.com/info/Privacy.aspx"><b>Privacy Policy</b></a>
+        &nbsp;|&nbsp; 
+        <a id="ctl00_rbxFooter_AdvertiseHyperLink" href="https://web.archive.org/web/20100218021241/http://sales.roblox.com/">Advertise with Us</a>
+        &nbsp;|&nbsp; 
+        <a id="ctl00_rbxFooter_ContactHyperLink" href="/web/20100218021241/http://www.roblox.com/info/ContactUs.aspx">Contact Us</a>
+        &nbsp;|&nbsp;
+        <a id="ctl00_rbxFooter_AboutHyperLink" href="/web/20100218021241/http://www.roblox.com/info/About.aspx">About Us</a>
+        &nbsp;|&nbsp;
+        <a id="ctl00_rbxFooter_FreeGamesHyperLink" href="/web/20100218021241/http://www.roblox.com/FreeGames.aspx">Free Games</a>
+        &nbsp;|&nbsp;
+        <a id="ctl00_rbxFooter_JobsHyperLink" href="https://web.archive.org/web/20100218021241/http://jobs.roblox.com/">Jobs</a>
+    </div>
+    <hr>
+    <p class="Legalese">
+        ROBLOX, "Online Building Toy", characters, logos, names, and all related indicia are trademarks of <a id="ctl00_rbxFooter_hlRobloxCorporation" href="/web/20100218021241/http://www.roblox.com/info/About.aspx">ROBLOX Corporation</a>, ©2010. Patents pending.
+        <br>
+        ROBLOX is not sponsored, authorized or endorsed by any producer of plastic building bricks, including The LEGO Group, MEGA Brands, and K'Nex,<br> and no resemblance to the products of these companies is intended.<br>Use of this site signifies your acceptance of the <a id="ctl00_rbxFooter_hlTermsOfService" href="/web/20100218021241/http://www.roblox.com/info/TermsOfService.aspx">Terms and Conditions</a>.
+        <br>
+    </p>
+</div>
+        </div>
+    </div>
+    
+    
+        <script src="https://web.archive.org/web/20100218021241js_/http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+        <script type="text/javascript">_uacct="UA-486632-1"; _udn="roblox.com"; urchinTracker(); __utmSetVar('Visitor/Anonymous');</script>
+    
+
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+if (new Date() > new Date('2/26/2010 4:12:41 AM')){alert('Your system time is incorrect') };__utmSetVar('Roblox_Home_Top_728x90');Roblox.Controls.Image.ErrorUrl = "https://web.archive.org/web/20100218021241/http://www.roblox.com/Analytics/BadHtmlImage.ashx";__utmSetVar('Roblox_Home_Medium_Rectangle_300x250');__utmSetVar('Roblox_Default_Top_728x90');Sys.Application.initialize();
+//]]>
+</script>
+</form>
+</body>
