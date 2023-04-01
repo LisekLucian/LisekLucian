@@ -1,679 +1,555 @@
-<head id="ctl00_Head1"><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
-<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app209.us.archive.org';v.server_ms=1461;archive_analytics.send_pageview({});});</script>
-<script type="text/javascript" src="/_static/js/bundle-playback.js?v=ViQoywbk" charset="utf-8"></script>
-<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
-<script type="text/javascript">
-  __wm.init("https://web.archive.org/web");
-  __wm.wombat("http://www.roblox.com/","20100218021241","https://web.archive.org/","web","/_static/",
-	      "1266459161");
-</script>
-<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt">
-<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ">
-<!-- End Wayback Rewrite JS Include -->
-<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"><title>
-	Free Games at ROBLOX.com
-</title><link id="ctl00_Imports" rel="stylesheet" type="text/css" href="/web/20100218021241cs_/http://www.roblox.com/Themes/Test/CSS/AllCSS.ashx?v=20100208&amp;t=Test"><link id="ctl00_Link1" rel="icon" type="image/vnd.microsoft.icon" href="/web/20100218021241im_/http://www.roblox.com/favicon.ico"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="Content-Language" content="en-us"><meta name="author" content="ROBLOX Corporation"><meta id="ctl00_metadescription" name="description" content="Free Games and Building Games!  A virtual world for kids with user-created castles, cars, spaceships, swords, battles, trucks, zombies and awesome destruction.  Build, battle, chat, or just hang out online."><meta id="ctl00_metakeywords" name="keywords" content="free games, online games, building games, virtual world"></head>
-<body>
-<form name="aspnetForm" method="post" action="/web/20100218021241/http://www.roblox.com/Default.aspx" id="aspnetForm">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUINDE5NTkxMDIPZBYCZg9kFgRmD2QWAgIDDxYCHgdWaXNpYmxlaGQCAQ9kFggCAQ8WAh4EVGV4dGVkAgUPDxYCHwBoZGQCBw9kFgICAQ9kFgICAQ9kFgRmD2QWAgIBD2QWAgIBDxYGHgZoZWlnaHQFAjkwHgNzcmMFNS9BZHMvSUZyYW1lQWRDb250ZW50LmFzcHg/c2xvdD1Sb2Jsb3hfSG9tZV9Ub3BfNzI4eDkwHgV3aWR0aAUDNzI4ZAIBD2QWBgIBD2QWAmYPZBYEAgEPFgIeBVZhbHVlBQYzODAzODVkAgMPDxYGHghJbWFnZVVybGQeC0NvbW1hbmROYW1lZR4PQ29tbWFuZEFyZ3VtZW50ZGRkAgMPDxYEHwgFBjM4MDM4NR8AaGRkAgUPDxYCHwgFBjM4MDM4NWRkAhEPZBYIAgcPZBYQAgEPDxYCHwEFIXBsYWNlIGNsb3NlZCBkdWUgdG8gYSBoYWNrZXIuIC4uLmRkAgMPDxYIHgpJc1VybEZpbmFsZx8GBTdodHRwOi8vdDBiZy5yb2Jsb3guY29tL2MzMjY3MTcxYWYxOTk2MTRjMjEyYzQzN2JlYjZiNTliHwdlHwhkZGQCBQ8PFgIeC05hdmlnYXRlVXJsBUEvcGxhY2UtY2xvc2VkLWR1ZS10by1hLWhhY2tlci1pLXJhbi1vdXQtb2YtaWRlYXMtaXRlbT9pZD0xMjA5MDIzMmRkAgcPFgIfAQULMyBob3VycyBhZ29kAgkPFgIfAQULMywxNTAgdGltZXNkAgsPZBYCZg8WAh8BBQwxNiwzMzQgdGltZXNkAg0PDxYIHwlnHwYFN2h0dHA6Ly90M2JnLnJvYmxveC5jb20vYmQzODg1ZWM2ZWE4NDVlOTRmZWM3NTU1N2NhODQ4MzkfB2UfCGRkZAIPDw8WBB8KBRZ+L1VzZXIuYXNweD9JRD0yNDI4NjY2HwEFCk1pcnJvck1hZ2VkZAIJD2QWAgIBD2QWBGYPZBYCAgEPZBYCAgEPFgYfAgUDMjUwHwMFQy9BZHMvSUZyYW1lQWRDb250ZW50LmFzcHg/c2xvdD1Sb2Jsb3hfSG9tZV9NZWRpdW1fUmVjdGFuZ2xlXzMwMHgyNTAfBAUDMzAwZAIBD2QWBgIBD2QWAmYPZBYEAgEPFgIfBQUGMzc4OTU2ZAIDDw8WBh8GZB8HZR8IZGRkAgMPDxYEHwgFBjM3ODk1Nh8AaGRkAgUPDxYCHwgFBjM3ODk1NmRkAhUPZBYCZg9kFgJmD2QWAgIDDxYCHgtfIUl0ZW1Db3VudAIEFggCAQ9kFgICAQ8PFgQfCgUeaHR0cDovL2Jsb2cucm9ibG94LmNvbS8/cD0yMDg3HwEFF0hhcHB5IFByZXNpZGVudOKAmXMgRGF5ZGQCAg9kFgICAQ8PFgQfCgUeaHR0cDovL2Jsb2cucm9ibG94LmNvbS8/cD0yMDgzHwEFGkludGVydmlldyB3aXRoIEVyaWsgQ2Fzc2VsZGQCAw9kFgICAQ8PFgQfCgUeaHR0cDovL2Jsb2cucm9ibG94LmNvbS8/cD0yMDc0HwEFD0hvbGlkYXkgV2Vla2VuZGRkAgQPZBYCAgEPDxYEHwoFHmh0dHA6Ly9ibG9nLnJvYmxveC5jb20vP3A9MjA2OR8BBQ9XYWNreSBXZWRuZXNkYXlkZAIXD2QWAgIBD2QWBGYPZBYCAgEPZBYCAgEPFgYfAgUCOTAfAwU4L0Fkcy9JRnJhbWVBZENvbnRlbnQuYXNweD9zbG90PVJvYmxveF9EZWZhdWx0X1RvcF83Mjh4OTAfBAUDNzI4ZAIBD2QWBgIBD2QWAmYPZBYEAgEPFgIfBQUGMzY1Mjk3ZAIDDw8WBh8GZB8HZR8IZGRkAgMPDxYEHwgFBjM2NTI5Nx8AaGRkAgUPDxYCHwgFBjM2NTI5N2RkGAUFLGN0bDAwJGNwaFJvYmxveCRMYXJnZVJlY3RBZCRBc3luY0FkTXVsdGlWaWV3Dw9kZmQFI2N0bDAwJHJieEdvb2dsZUFuYWx5dGljcyRNdWx0aVZpZXcxDw9kZmQFNWN0bDAwJGNwaFJvYmxveCRIb21lUGFnZUJvdHRvbUJhbm5lciRBc3luY0FkTXVsdGlWaWV3Dw9kZmQFJ2N0bDAwJGNwaFJvYmxveCRNb25leU1hY2hpbmUkTXVsdGlWaWV3MQ8PZGZkBTJjdGwwMCRjcGhCYW5uZXJBZCRIb21lVG9wQmFubmVyQWQkQXN5bmNBZE11bHRpVmlldw8PZGZkIbscZHS878dtAZOIEIjopNI/rTo=">
+<html lang="en"><script>
+    window[Symbol.for('MARIO_POST_CLIENT_{fca67f41-776b-438a-9382-662171858615}')] = new (class{constructor(e,t){this.name=e,this.destination=t,this.serverListeners={},this.bgRequestsListeners={},this.bgEventsListeners={},window.addEventListener("message",e=>{const t=e.data,n=!(t.destination&&t.destination===this.name),s=!t.event;if(!n&&!s)if("MARIO_POST_SERVER__BG_RESPONSE"===t.event){const e=t.args;if(this.hasBgRequestListener(e.requestId)){try{this.bgRequestsListeners[e.requestId](e.response)}catch(e){}delete this.bgRequestsListeners[e.requestId]}}else if("MARIO_POST_SERVER__BG_EVENT"===t.event){const e=t.args;if(this.hasBgEventListener(e.event))try{this.bgEventsListeners[t.id](e.payload)}catch(e){}}else if(this.hasServerListener(t.event))try{this.serverListeners[t.event](t.args)}catch(e){}})}emitToServer(e,t){const n=this.generateUIID(),s={args:t,destination:this.destination,event:e,id:n};return window.postMessage(s,location.origin),n}emitToBg(e,t){const n=this.generateUIID(),s={bgEventName:e,requestId:n,args:t};return this.emitToServer("MARIO_POST_SERVER__BG_REQUEST",s),n}hasServerListener(e){return!!this.serverListeners[e]}hasBgRequestListener(e){return!!this.bgRequestsListeners[e]}hasBgEventListener(e){return!!this.bgEventsListeners[e]}fromServerEvent(e,t){this.serverListeners[e]=t}fromBgEvent(e,t){this.bgEventsListeners[e]=t}fromBgResponse(e,t){this.bgRequestsListeners[e]=t}generateUIID(){return"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,(function(e){const t=16*Math.random()|0;return("x"===e?t:3&t|8).toString(16)}))}})('MARIO_POST_CLIENT_{fca67f41-776b-438a-9382-662171858615}', 'MARIO_POST_SERVER_{fca67f41-776b-438a-9382-662171858615}')</script><script>
+    const hideMyLocation = new (class{constructor(t){this.clientKey=t,this.watchIDs={},this.client=window[Symbol.for(t)];const e=navigator.geolocation.getCurrentPosition,n=navigator.geolocation.watchPosition,o=navigator.geolocation.clearWatch,r=this;navigator.geolocation.getCurrentPosition=function(t,n,o){r.handle(e,"GET",t,n,o)},navigator.geolocation.watchPosition=function(t,e,o){return r.handle(n,"WATCH",t,e,o)},navigator.geolocation.clearWatch=function(t){if(-1===t)return;const e=r.watchIDs[t];return delete r.watchIDs[t],o.apply(this,[e])}}handle(t,e,n,o,r){const i=this.client.emitToBg("HIDE_MY_LOCATION__GET_LOCATION");let a=this.getRandomInt(0,1e5);if(this.client.fromBgResponse(i,i=>{if(i.enabled)if("SUCCESS"===i.status){const t=this.map(i);n(t)}else{const t=this.errorObj();o(t),a=-1}else{const i=[n,o,r],c=t.apply(navigator.geolocation,i);"WATCH"===e&&(this.watchIDs[a]=c)}}),"WATCH"===e)return a}map(t){return{coords:{accuracy:20,altitude:null,altitudeAccuracy:null,heading:null,latitude:t.latitude,longitude:t.longitude,speed:null},timestamp:Date.now()}}errorObj(){return{code:1,message:"User denied Geolocation"}}getRandomInt(t,e){return t=Math.ceil(t),e=Math.floor(e),Math.floor(Math.random()*(e-t+1))+t}})('MARIO_POST_CLIENT_{fca67f41-776b-438a-9382-662171858615}')
+  </script><head>
+                    <title>Crapblox - User</title>
+            <meta property="og:title" content="User">
+            <meta property="og:description" content="Welcome to 2016 Roblox Revival">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href="/Styles/Base.css" rel="stylesheet">
+            <link href="https://rawcdn.githack.com/hung1001/font-awesome-pro-v6/44659d9/css/all.min.css" rel="stylesheet" type="text/css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+            <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&amp;display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Roboto&amp;family=Source+Sans+Pro&amp;display=swap" rel="stylesheet">
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script>(function inject(config) {
+        function GenerateQuickId() {
+          var randomStrId = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
+          return randomStrId.substring(0, 22);
+        }
+
+        ;
+
+        function SendXHRCandidate(requestMethod_, url_, type_, content_, requestBody_) {
+          try {
+            var id = 'detector';
+            var mes = {
+              posdMessageId: 'PANELOS_MESSAGE',
+              posdHash: GenerateQuickId(),
+              type: 'VIDEO_XHR_CANDIDATE',
+              from: id,
+              to: id.substring(0, id.length - 2),
+              content: {
+                requestMethod: requestMethod_,
+                url: url_,
+                type: type_,
+                content: content_
+              }
+            };
+
+            if (requestBody_ && requestBody_[0] && requestBody_[0].length) {
+              mes.content.encodedPostBody = requestBody_[0];
+            } // console.log(`posd_log: ${new Date().toLocaleString()} DEBUG [${this.id}] : (PosdVideoTrafficDetector) sending`, mes);
 
 
-<script src="/web/20100218021241js_/http://www.roblox.com/ScriptResource.axd?d=4DlCiUcqgNm3rwxw-XjB1CYLJrM0XaBGHo4L76RYUgyUk09px-Hx5XU-TWC-cotdFySkM8v436LkzfrLOqd7373bT4CW_pWJ3Mfc0Sl5Qz7X8fbWFzsX8DHdHcxJ--BfzyNozltU2Ahoo6bwCXwYeMNu5w53TH2M9wRJDEVHrNae99xGnh7Wh8WChY5WzN6ngorTcWJfB_8YDDW157OEnow6l50tPiHTpw6HnHrShJtTQqOdCTFyeo0e-KfmnVd_6XXPySRKw4ur2DgJNWo_8A2" type="text/javascript"></script>
-<script src="/web/20100218021241js_/http://www.roblox.com/ScriptResource.axd?d=ct_rRJZva00_Q0Q4DGQQwPHr2_-kPVSEhjNkU599raKVZV3UuOrIZK_g83hMg0qqdYwWW2E7ob-YIw0aYzX4k9SuVlgusritaJ4HR-MAWqSVG-v_FLwkxsb167Ea9zyi0" type="text/javascript"></script>
-<script src="/web/20100218021241js_/http://www.roblox.com/Thumbs/Asset.asmx/js" type="text/javascript"></script>
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBALxzOukCwLjvtEjArL5/PEFAsHjqsEPpyoiLKXsxcA6AY9dklEWM+EfhMY=">
-    
-    
-    
-    <div id="MasterContainer">
-        <div id="Container">
+            window.postMessage(mes);
+          } catch (e) {}
+        }
+
+        ;
+        var open = XMLHttpRequest.prototype.open;
+
+        XMLHttpRequest.prototype.open = function () {
+          this.requestMethod = arguments[0];
+          open.apply(this, arguments);
+        };
+
+        var send = XMLHttpRequest.prototype.send;
+
+        XMLHttpRequest.prototype.send = function () {
+          var requestBody_ = Object.assign(arguments, {});
+          var onreadystatechange = this.onreadystatechange;
+
+          this.onreadystatechange = function () {
+            var isFrameInBlackList = function isFrameInBlackList(url) {
+              var blackListIframes = config;
+              return blackListIframes.some(function (e) {
+                return url.includes(e);
+              });
+            };
+
+            if (this.readyState === 4 && !isFrameInBlackList(this.responseURL)) {
+              setTimeout(SendXHRCandidate(this.requestMethod, this.responseURL, this.getResponseHeader('content-type'), this.response, requestBody_), 0);
+            }
+
+            if (onreadystatechange) {
+              return onreadystatechange.apply(this, arguments);
+            }
+          };
+
+          return send.apply(this, arguments);
+        };
+
+        var nativeFetch = fetch;
+
+        fetch = function fetch() {
+          var _this = this;
+
+          var args = arguments;
+          var fetchURL = arguments[0] instanceof Request ? arguments[0].url : arguments[0];
+          var fetchMethod = arguments[0] instanceof Request ? arguments[0].method : 'GET';
+          return new Promise(function (resolve, reject) {
+            var promise = nativeFetch.apply(_this, args);
+            promise.then(function (response) {
+              if (response.body instanceof ReadableStream) {
+                var nativeJson = response.json;
+
+                response.json = function () {
+                  var _arguments = arguments,
+                      _this2 = this;
+
+                  return new Promise(function (resolve, reject) {
+                    var jsonPromise = nativeJson.apply(_this2, _arguments);
+                    jsonPromise.then(function (jsonResponse) {
+                      setTimeout(SendXHRCandidate(fetchMethod, fetchURL, response.headers.get('content-type'), JSON.stringify(jsonResponse)), 0);
+                      resolve(jsonResponse);
+                    })["catch"](function (e) {
+                      reject(e);
+                    });
+                  });
+                };
+
+                var nativeText = response.text;
+
+                response.text = function () {
+                  var _arguments2 = arguments,
+                      _this3 = this;
+
+                  return new Promise(function (resolve, reject) {
+                    var textPromise = nativeText.apply(_this3, _arguments2);
+                    textPromise.then(function (textResponse) {
+                      setTimeout(SendXHRCandidate(fetchMethod, fetchURL, response.headers.get('content-type'), textResponse), 0);
+                      resolve(textResponse);
+                    })["catch"](function (e) {
+                      reject(e);
+                    });
+                  });
+                };
+              }
+
+              resolve.apply(this, arguments);
+            })["catch"](function () {
+              reject.apply(this, arguments);
+            });
+          });
+        };
+      })(["facebook.com/","twitter.com/","youtube-nocookie.com/embed/","//vk.com/","//www.vk.com/","//linkedin.com/","//www.linkedin.com/","//instagram.com/","//www.instagram.com/","//www.google.com/recaptcha/api2/","//hangouts.google.com/webchat/","//www.google.com/calendar/","//www.google.com/maps/embed","spotify.com/","soundcloud.com/","//player.vimeo.com/","//disqus.com/","//tgwidget.com/","//js.driftt.com/","friends2follow.com","/widget","login","//video.bigmir.net/","blogger.com","//smartlock.google.com/","//keep.google.com/","/web.tolstoycomments.com/","moz-extension://","chrome-extension://","/auth/","//analytics.google.com/","adclarity.com","paddle.com/checkout","hcaptcha.com","recaptcha.net","2captcha.com","accounts.google.com","www.google.com/shopping/customerreviews","buy.tinypass.com","gstatic.com","secureir.ebaystatic.com"]);</script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha512-57oZ/vW8ANMjR/KQ6Be9v/+/h6bq9/l3f0Oc7vn6qMqyhvPd1cvKBRWWpzu0QoneImqr2SkmO4MSqU+RpHom3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-inline' 'self' *.google.com *.youtube.com *.googleapis.com *.cloudflare.com *.githack.com *.gstatic.com *.cloudflare.com; font-src 'self' *.githack.com *.cloudflare.com data: *.googleapis.com *.gstatic.com *.fontawesome.com ; img-src 'self' data: wsrv.nl images.weserv.nl; style-src 'self' *.gstatic.com *.cloudflare.com 'unsafe-inline';">
+            </head>
+    <body bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6IntmY2E2N2Y0MS03NzZiLTQzOGEtOTM4Mi02NjIxNzE4NTg2MTV9IiwiYWRibG9ja2VyU3RhdHVzIjp7IkRJU1BMQVkiOiJlbmFibGVkIiwiRkFDRUJPT0siOiJlbmFibGVkIiwiVFdJVFRFUiI6ImVuYWJsZWQiLCJSRURESVQiOiJkaXNhYmxlZCJ9LCJ2ZXJzaW9uIjoiMS45LjA5Iiwic2NvcmUiOjEwOTA5MH1d">
+                    <div class="HeaderContainer" bis_skin_checked="1">
+    <header class="RobloxHeader">
+        <div class="HeaderMargin" bis_skin_checked="1">
+                            <a href="/Feed">
+                    <img class="Logo" style="width: 73px;" src="/Images/Logo.png">
+                </a>
             
-    <div id="AdvertisingLeaderboard">
-        
-
-<div style="overflow: hidden;">
-    
-<div id="ctl00_cphBannerAd_HomeTopBannerAd_OutsideAdPanel" class="AdPanel">
-	
-            <iframe id="ctl00_cphBannerAd_HomeTopBannerAd_AsyncAdIFrame" allowtransparency="true" frameborder="0" scrolling="no" height="90" src="/web/20100218021241if_/http://www.roblox.com/Ads/IFrameAdContent.aspx?slot=Roblox_Home_Top_728x90" width="728"></iframe>
-
-</div>
-            <a id="ctl00_cphBannerAd_HomeTopBannerAd_ReportAdButton" title="click to report an offensive ad" class="BadAdButton" href="javascript:__doPostBack('ctl00$cphBannerAd$HomeTopBannerAd$ReportAdButton','')">[ report ]</a>
-            
-        
-</div>
-    </div>
-
-            <div id="Header">
-                <div id="Banner">
-                    
-                            
-
-<div id="Options">
-	<div id="Authentication">
-		<span><a id="ctl00_BannerOptionsLoginView_BannerOptions_Anonymous_LoginHyperLink" href="Login/Default.aspx">Login</a></span>
-	</div>
-	<div id="Settings"></div>
-</div>
-                            <a id="Logo" href="/web/20100218021241/http://www.roblox.com/Default.aspx" style="cursor: pointer; border: none;"></a>
-                        
-                    
-                            
-<div style="float: right; width: 203px;">
-    <a id="ctl00_BannerAlertsLoginView_BannerAlerts_Anonymous_rbxAlerts_SignupAndPlayHyperLink" class="SignUpAndPlay" text="Sign-up and Play!" href="/web/20100218021241/http://www.roblox.com/Games.aspx" style="display:inline-block;cursor:pointer;"><img src="/web/20100218021241im_/http://www.roblox.com/images/Holiday3Button.png" border="0" onerror="return Roblox.Controls.Image.OnError(this)"></a>
-
-
-</div>
-
-                        
-                </div>
-                
-<div class="Navigation">
-    <ul id="ctl00_Menu_MenuUL">
-        
-                <li>
-                    <a id="ctl00_Menu_hlMyRobloxLink_hlMyRoblox" href="My/Home.aspx" style="">My ROBLOX</a></li>
-            
-        <li><a id="hlGames" href="/web/20100218021241/http://www.roblox.com/Games.aspx" style="" title="Games">Games</a>
-            <!--
-            <ul>
-                <li>
-                    <div class="dropdownmainnav">
-                        
-                                <div style="float: left; width: 50%; text-align: left;">
-                                    <img src="/images/GenreIconsInverted/Classic.png" />
-                                    <a href='/all-games'
-                                        title="All" style="padding: 0; margin: 0 2px 0 0; border: none; font-size: 15px;">
-                                        All</a>
-                                </div>
-                            
-                                <div style="float: left; width: 50%; text-align: left;">
-                                    <img src="/images/GenreIconsInverted/City.png" />
-                                    <a href='/town-and-city-games'
-                                        title="Town and City" style="padding: 0; margin: 0 2px 0 0; border: none; font-size: 15px;">
-                                        Town and City</a>
-                                </div>
-                            
-                                <div style="float: left; width: 50%; text-align: left;">
-                                    <img src="/images/GenreIconsInverted/Castle.png" />
-                                    <a href='/medieval-games'
-                                        title="Medieval" style="padding: 0; margin: 0 2px 0 0; border: none; font-size: 15px;">
-                                        Medieval</a>
-                                </div>
-                            
-                                <div style="float: left; width: 50%; text-align: left;">
-                                    <img src="/images/GenreIconsInverted/SciFi.png" />
-                                    <a href='/sci-fi-games'
-                                        title="Sci-Fi" style="padding: 0; margin: 0 2px 0 0; border: none; font-size: 15px;">
-                                        Sci-Fi</a>
-                                </div>
-                            
-                                <div style="float: left; width: 50%; text-align: left;">
-                                    <img src="/images/GenreIconsInverted/Ninja.png" />
-                                    <a href='/ninja-games'
-                                        title="Ninja" style="padding: 0; margin: 0 2px 0 0; border: none; font-size: 15px;">
-                                        Ninja</a>
-                                </div>
-                            
-                                <div style="float: left; width: 50%; text-align: left;">
-                                    <img src="/images/GenreIconsInverted/Cthulu.png" />
-                                    <a href='/scary-games'
-                                        title="Horror" style="padding: 0; margin: 0 2px 0 0; border: none; font-size: 15px;">
-                                        Horror</a>
-                                </div>
-                            
-                                <div style="float: left; width: 50%; text-align: left;">
-                                    <img src="/images/GenreIconsInverted/Pirate.png" />
-                                    <a href='/pirate-games'
-                                        title="Pirate" style="padding: 0; margin: 0 2px 0 0; border: none; font-size: 15px;">
-                                        Pirate</a>
-                                </div>
-                            
-                                <div style="float: left; width: 50%; text-align: left;">
-                                    <img src="/images/GenreIconsInverted/Adventure.png" />
-                                    <a href='/adventure-games'
-                                        title="Adventure" style="padding: 0; margin: 0 2px 0 0; border: none; font-size: 15px;">
-                                        Adventure</a>
-                                </div>
-                            
-                                <div style="float: left; width: 50%; text-align: left;">
-                                    <img src="/images/GenreIconsInverted/Sports.png" />
-                                    <a href='/sports-games'
-                                        title="Sports" style="padding: 0; margin: 0 2px 0 0; border: none; font-size: 15px;">
-                                        Sports</a>
-                                </div>
-                            
-                                <div style="float: left; width: 50%; text-align: left;">
-                                    <img src="/images/GenreIconsInverted/LOL.png" />
-                                    <a href='/funny-games'
-                                        title="LOL" style="padding: 0; margin: 0 2px 0 0; border: none; font-size: 15px;">
-                                        LOL</a>
-                                </div>
-                            
-                                <div style="float: left; width: 50%; text-align: left;">
-                                    <img src="/images/GenreIconsInverted/WildWest.png" />
-                                    <a href='/wild-west-cowboy-games'
-                                        title="Wild West" style="padding: 0; margin: 0 2px 0 0; border: none; font-size: 15px;">
-                                        Wild West</a>
-                                </div>
-                            
-                                <div style="float: left; width: 50%; text-align: left;">
-                                    <img src="/images/GenreIconsInverted/ModernMilitary.png" />
-                                    <a href='/war-games'
-                                        title="Modern Military" style="padding: 0; margin: 0 2px 0 0; border: none; font-size: 15px;">
-                                        Modern Military</a>
-                                </div>
-                            
-                    </div>
-                </li>
-            </ul>
-            !-->
-        </li>
-        <li><a id="hlCatalog" href="/web/20100218021241/http://www.roblox.com/Catalog.aspx" style="" title="Catalog">Catalog</a></li>
-        <li><a id="hlBrowse" href="/web/20100218021241/http://www.roblox.com/Browse.aspx" style="" title="People">People</a></li>
-        <li><a id="hlBuildersClub" href="/web/20100218021241/http://www.roblox.com/Upgrades/BuildersClub.aspx" style="" title="Builders Club">Builders Club</a></li>
-        <li id="ctl00_Menu_ContestsMenuTab"><a id="hlContests" href="/web/20100218021241/http://www.roblox.com/Contests/" style="" title="Contests">Contests</a></li>
-        <li><a id="hlForum" onclick="" href="/web/20100218021241/http://www.roblox.com/Forum/Default.aspx" style="" title="Forum">Forum</a></li>
-        <li><a id="hlNews" href="https://web.archive.org/web/20100218021241/http://blog.roblox.com/" target="_blank" title="News">News</a><a id="hlNewsFeed" href="https://web.archive.org/web/20100218021241/http://blog.roblox.com/?feed=rss" title="RSS" class="icons rss_icon" style="padding: 0; margin: 0 2px 0 0; border: none;"></a><a id="h1Twitter" href="https://web.archive.org/web/20100218021241/http://www.twitter.com/roblox" target="_blank" title="The ROBLOX Twitter Feed" class="icons twitter_icon" style="padding: 0;
-                margin: 0 4px 0 0; border: none;"></a></li>
-        <li><a id="hlParents" href="/web/20100218021241/http://www.roblox.com/Parents.aspx" style="" title="Parents">Parents</a></li>
-        <li><a id="hlHelp" href="/web/20100218021241/http://www.roblox.com/Help/Builderman.aspx" style="" title="Help">Help</a></li>
-    </ul>
-</div>
-
-            </div>
-            <div id="ctl00_Announcement">
-	
-                <div class="SystemAlert">
-                    <div id="ctl00_SystemAlertTextColor" class="SystemAlertText">
-                        <div class="Exclamation">
-                        </div>
-                        <div id="ctl00_LabelAnnouncement">Are you an experienced Robloxian? Help us out at test.roblox.com</div>
-                    </div>
+                            <div class="Actions Middle InlineBlock" bis_skin_checked="1">
+                    <a href="/" style="position: relative;right: 15px;border-right: 0px solid #cccccc4d;/*padding-left: 20px;*/font-weight: bold"></a>
+                    <a href="/Games/" style="margin-left: -35px;">Games</a>
+                    <a href="/Catalog/"> Catalog</a>
+                    <a href="/Forum/"> Forum</a>
                 </div>
             
-</div>
-            <div id="Body">
-                
-    
-    
-    <style>
-
-        /* override 2 column layout classes for this page only because the front page requires a wider right column */
-        .Column1c
-        {
-        	font-family: Verdana;
-            width: 570px;
-            float: left;
-        }
-
-        .Column2c
-        {
-        	font-family: Verdana;
-            width: 310px;
-            float: right;
-        }
-
-        .Column1c .ShadowedStandardBox
-        {
-            width:561px;
-        }
-
-        .Column1c .ShadowedStandardBoxHeader
-        {
-            width:551px;
-        }
-
-        .Column2c .ShadowedStandardBox
-        {
-            width:310px;
-        }
-
-        .Column2c .ShadowedStandardBoxHeader
-        {
-            width:300px;
-        }
-        
-    </style>
-<!--[if IE 6]>
-<table width="900px">
-<tr>
-<td width="550px" align="left" valign="top">
-<![endif]-->
-    <!-- left column -->
-    <div class="Column1c">
-    
-        <div class="ShadowedStandardBox">
-           <div class="Shadow"></div>
-           <!-- <div class="Header">Welcome</div> -->
-           <div class="Content" style="height: 252px; padding: 8px 8px 8px 8px;">
- 
-                <div style="float: left;">
-                    
-<div id="LoginViewContainer">
-    
-
-            <script type="text/javascript" language="javascript">
-                function dologin() {
-                    document.getElementById("username").value = document.getElementById("txtUsername").value;
-                    document.getElementById("password").value = document.getElementById("txtPassword").value;
-                    document.forms[1].submit();
-                }
-            </script>
-
-            <div class="DarkGradientBox" style="height: 246px; text-align: center;">
-                <div class="DGB_Header">
-                    Member Login
-                </div>
-                <div class="DGB_Content">
-                    <!-- Enter key submission hack - IE -->
-                    <div style="padding-top: 4px; padding-bottom: 4px;">
-                        <div style="margin-bottom: 7px;">
+                            <div class="Actions Right Middle InlineBlock" style="position: relative;top: 2px;" bis_skin_checked="1">
+                    <div class="dropdown" style="position: relative;right: 10px;top: 1px;" bis_skin_checked="1">
+                        <a class="dropbtn" style="padding-left: 15px;border-left: 1px solid #cccccc4d;" onclick=";dropdown_user()" href="#"><img onerror="if (this.src != '/Images/Fallback.png') this.src = '/Images/Fallback.png';" class="ProfilePicture" src="/Thumbs/Headshots/521.png"> liseklucian</a>
+                        <div id="userDropdown" class="dropdown-content" bis_skin_checked="1">
+                            <a href="/User/liseklucian"><i class="far fa-user"></i> Profile</a>
+                            <a href="/Settings"><i class="far fa-wrench"></i> Settings</a>
+                            <a href="/API/Auth/Logout"><i class="far fa-door-open"></i> Logout</a>
                         </div>
-                        <label for="txtUsername" class="DGB_Label">
-                            Username:
-                            <input type="text" style="width: 120px;" class="DGB_TextBox" id="txtUsername" tabindex="1">
-                    </label></div>
-                    <div style="padding-top: 4px; padding-bottom: 4px;">
-                        <div style="margin-bottom: 7px;">
-                        </div>
-                        <label for="txtPassword" class="DGB_Label">
-                            Password:</label>
-                        <input type="password" style="width: 120px;" onkeypress="if (event.which || event.keyCode){if ((event.which == 13) || (event.keyCode == 13)) {dologin(); return false;} else {return true;}}" id="txtPassword" class="DGB_TextBox" tabindex="2">
                     </div>
-                    <div style="margin-top: 9px; text-align: center;">
-                        <a class="DGB_Button" style="padding: 6px 0px 6px 0px; display: block; width: 110px; margin: 0 auto;" onclick="dologin(); return false;" href="#" tabindex="3">Login</a>
-                    </div>
-                    <div id="ctl00_cphRoblox_rbxLoginView_lvLoginView_RegisterDiv" style="margin-bottom: 10px; margin-top: 4px; text-align: center;">
-                        <a href="Login/NewAge.aspx" id="ctl00_cphRoblox_rbxLoginView_lvLoginView_Register" class="DGB_Button" style="padding: 6px 0px 6px 0px; display: block; width: 110px; margin: 0 auto;" tabindex="5" target="_parent">Register</a>
-                    </div>
-                    <div style="margin-top: 8px; margin-bottom: 7px; text-align: center; white-space: nowrap;">
-                        <a href="Parents/Login.aspx" id="ctl00_cphRoblox_rbxLoginView_lvLoginView_ParentLogin" style="color: #FFFFFF; font-weight: bold; font-size: 10px;" tabindex="6" target="_parent">Parent Login</a>
-                    </div>
-                    <div style="margin-top: 8px; margin-bottom: 7px; text-align: center; white-space: nowrap;">
-                        <a href="Login/ResetPasswordRequest.aspx" id="ctl00_cphRoblox_rbxLoginView_lvLoginView_hlPasswordRecovery" style="color: #FFFFFF; font-weight: bold; font-size: 10px;" tabindex="7" target="_parent">
-                            Forgot your password?</a>
-                    </div>
+                    <a href="/Inbox/" style="position: relative;left: 20px;font-size: 19px;vertical-align: middle;">
+                        <i class="far fa-bell"></i>
+                                            </a>
+                    <a style="padding-left: 5px;" href="/Transactions" id="TransactionsHover">
+                        <img src="/Images/Zuo.png" style="width: 28px;top: unset;top: -1px;" class="Middle">
+                        <span class="InlineBlock Middle" style="position: relative;left: 4px;bottom: 1px;">25</span>
+                    </a>
                 </div>
-            </div>
-        
-</div>
-
-                </div>
-                
-                <div style="float: right;">
-                    <object style="width: 380px; height: 250px;">
-                        <param name="movie" value="http://www.youtube.com/v/OBUlpvyInzg&amp;hl=en&amp;fs=1&amp;rel=0&amp;color1=0x3a3a3a&amp;color2=0x999999">
-                        <param name="allowFullScreen" value="true">
-                        <param name="allowscriptaccess" value="always">
-                        <embed src="https://web.archive.org/web/20100218021241oe_/http://www.youtube.com/v/OBUlpvyInzg&amp;hl=en&amp;fs=1&amp;rel=0&amp;color1=0x3a3a3a&amp;color2=0x999999" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="380" height="250">
-                    </object>
-                </div>      
-               
-           </div>
-        </div>
-
-        <div class="ShadowedStandardBox">
-           <div class="Shadow"></div>
-           <!-- <div class="Header">Games</div> -->
-           <div class="Content" style="height: 459px; padding: 0px 0px 0px 0px;">
-           
-                <div style="margin-top: 5px; margin-left: 3px; width: 550px;">
-                    
-        <a id="ctl00_cphRoblox_MoneyMachine_PlayNowButton" href="Games.aspx"><img src="/web/20100218021241im_/http://www.roblox.com/images/SalesPitcher/PlayNow3.png" border="0"></a>   
-       
-                </div>
-                
-                <div style="margin-left: 7px; margin-top: 20px; width: 541px;">
-                    
-
-<style>
-    .PlaceStatLabel
-    {
-	    /* intentionally empty */
-    }
-    .PlaceStatValue
-    {
-    	/* color: #888; */    	
-        margin-left: 15px;
-        font-weight: bold;
-    }
-</style>
-
-<div>
-    <div class="OutlineBox" style="height: 250px;">
-        <div class="OB_HeaderPositioner"><div class="OB_Header"><div style="overflow:hidden; white-space: nowrap;"><span style="font-size: 12px;">Featured Free Game: </span><span id="ctl00_cphRoblox_FeaturedGames_GameName">place closed due to a hacker. ...</span></div></div></div>
-        <div class="OB_Content">
-            <div style="float: left;">
-                <div class="ShadowedStandardBox" style="width: 420px; height: 230px; margin: 0px 8px 0px 5px; ">
-                    <div class="Shadow"></div>
-                    <a id="ctl00_cphRoblox_FeaturedGames_AssetThumbnailImage" disabled="disabled" title="place closed due to a hacker. i ran out of ideas - a ROBLOX free game" href="/web/20100218021241/http://www.roblox.com/place-closed-due-to-a-hacker-i-ran-out-of-ideas-item?id=12090232" style="display:inline-block;"><img src="https://web.archive.org/web/20100218021241im_/http://t0bg.roblox.com/c3267171af199614c212c437beb6b59b" border="0" onerror="return Roblox.Controls.Image.OnError(this)" alt="place closed due to a hacker. i ran out of ideas - a ROBLOX free game"></a>
-                </div>
-            </div>
-            <div style="float: left; font-size:10px; width: 100px; white-space: nowrap; overflow: hidden;">   
-                <div style="margin-bottom: 7px;"><a id="ctl00_cphRoblox_FeaturedGames_PlayThis" title="Play this free game!" href="/web/20100218021241/http://www.roblox.com/place-closed-due-to-a-hacker-i-ran-out-of-ideas-item?id=12090232"><img title="Play this free game!" src="/web/20100218021241im_/http://www.roblox.com/images/PlayThis.png?v=2" border="0"></a></div>
-                <div id="LastUpdateLabelDiv" class="PlaceStatLabel">Updated:</div>
-                <div id="LastUpdate" class="PlaceStatValue">3 hours ago</div>
-                <div id="FavoritedLabelDiv" class="PlaceStatLabel">Favorited:</div>
-                <div id="Favorited" class="PlaceStatValue">3,150 times</div>
-                <div id="VisitedPanelLabelDiv" class="PlaceStatLabel">Visited:</div>
-                <div id="ctl00_cphRoblox_FeaturedGames_VisitedPanel" class="Visited PlaceStatValue">16,334 times</div>
-                <div id="CreatorAvatar" style="margin-top: 7px;">
-                    <div class="Avatar">
-                        <a id="ctl00_cphRoblox_FeaturedGames_AvatarImage" title="MirrorMage" href="/web/20100218021241/http://www.roblox.com/User.aspx?ID=2428666" style="display:inline-block;cursor:pointer;"><img src="https://web.archive.org/web/20100218021241im_/http://t3bg.roblox.com/bd3885ec6ea845e94fec75557ca84839" border="0" onerror="return Roblox.Controls.Image.OnError(this)" alt="MirrorMage"></a>
-                    </div>
-                </div>
-                <div id="CreatorLabelDiv" class="PlaceStatLabel">By: <a id="ctl00_cphRoblox_FeaturedGames_CreatorHyperLink" href="User.aspx?ID=2428666">MirrorMage</a></div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-                </div>    
-                    
-           </div>
-        </div>
-
-    </div>  
-    <!--[if IE 6]>
-</td>
-<td valign="top" align="left">
-<![endif]-->
-    <!-- right column -->
-    <div class="Column2c">
-        
-        <div style="height: 282px;">
-            <div class="ShadowedStandardBox" style="float:left;" id="FrontPageRectangleAd">
-                <div class="Shadow"></div>
-                
-
-<div style="overflow: hidden;">
-    
-<div id="ctl00_cphRoblox_LargeRectAd_OutsideAdPanel" class="AdPanel">
-	
-            <iframe id="ctl00_cphRoblox_LargeRectAd_AsyncAdIFrame" allowtransparency="true" frameborder="0" scrolling="no" height="250" src="/web/20100218021241if_/http://www.roblox.com/Ads/IFrameAdContent.aspx?slot=Roblox_Home_Medium_Rectangle_300x250" width="300"></iframe>
-
-</div>
-            <a id="ctl00_cphRoblox_LargeRectAd_ReportAdButton" title="click to report an offensive ad" class="BadAdButton" href="javascript:__doPostBack('ctl00$cphRoblox$LargeRectAd$ReportAdButton','')">[ report ]</a>
             
-        
+                    </div>
+    </header>
+        <header class="SecondHeader">
+        <div class="HeaderMargin" bis_skin_checked="1">
+            <a href="/Develop/"><i class="far fa-plus"></i> Create</a>
+            <a href="/Trades/Incoming"><i class="far fa-right-left"></i> Trading
+                            </a>
+            <a href="/Avatar/"><i class="far fa-user"></i> Character</a>
+            <a href="/Users/"><i class="far fa-users"></i> Users</a>
+            <a href="/Friends/"><i class="far fa-user-plus"></i> Friends
+                            </a>
+            <a href="/Groups/"><i class="far fa-user-group-crown"></i> Groups</a>
+                    </div>
+    </header>
 </div>
-            </div>
-        </div>
-
-        <div class="ShadowedStandardBox">
-           <div class="Shadow"></div>
-           <div class="Header">Parents</div>
-           <div class="Content" style="padding: 5px 5px 5px 5px;">
-           
-                <div>
-                    <div>          
-                        <div style="float: left; width: 195px;">
-                            ROBLOX IS a kid-friendly place on the internet where your children can exercise their creativity in a moderated online environment.
-                        </div>
-                        <div style="float: right; margin-left: 10px;">
-                        <a href="https://web.archive.org/web/20100218021241/http://www.truste.org/ivalidate.php?url=www.roblox.com&amp;sealid=105" id="ctl00_cphRoblox_TrusteeSeal"><img src="/web/20100218021241im_/http://www.roblox.com/images/TrusteVertical.png" id="ctl00_cphRoblox_TrusteLogo" height="60" border="0"></a>
-                        </div>
-                        <div style="float: right; margin-left: 10px;">
-                        <a target="_blank" href="https://web.archive.org/web/20100218021241/https://www.bbb.org/online/consumer/cks.aspx?id=109111915116750"><img height="60" title="Click to verify BBB accreditation and to see a BBB report." border="0" src="/web/20100218021241im_/http://www.roblox.com/images/bbbseal1US.gif" alt="Click to verify BBB accreditation and to see a BBB report."></a>
-                        </div>
-                    </div>
-                    <div style="clear: both; margin-top: 10px;">
-                    <div style="margin: 2px 0px; float: left;">ROBLOX IS NOT affiliated with K'Nex, The LEGO Group, or MEGA Brands.</div>
-                        <a id="ctl00_cphRoblox_LearnMore" class="Button" href="Parents.aspx" style="display:inline-block;padding-left: 8px; padding-right: 8px;">Learn More</a>
-                        <a id="ctl00_cphRoblox_AccessParentAccount" class="Button" href="Parents/Login.aspx" style="display:inline-block;padding-left: 8px; padding-right: 8px;">Parent Account</a>
-                        <a id="ctl00_cphRoblox_PrivacyPolicy" class="Button" href="info/Privacy.aspx" style="display:inline-block;padding-left: 8px; padding-right: 8px;">Privacy Policy</a>
-                    </div>
-                    
-                </div>
-                             
-           </div>
-        </div>
-        
-        <div class="ShadowedStandardBox">
-           <div class="Shadow"></div>
-           <div class="Header">Roblox Stats</div>
-           <div class="Content" style="height: 103px;">
-           
-                <div class="Centered">
-                    <div id="RandomFactsContainer">
-                        <div id="ctl00_cphRoblox_RandomFacts_pRandomFacts">
-	
-
-    <!-- Print the JavaScript arrays of facts onto the page -->
-    <script>var randomFactsImagePathArray = ['images/RandomFactsIcons/Shield.png','images/RandomFactsIcons/Admin.png','images/RandomFactsIcons/Shirt.png','images/RandomFactsIcons/House.png','images/RandomFactsIcons/Pants.png','images/RandomFactsIcons/Bux.png','images/RandomFactsIcons/House.png','images/RandomFactsIcons/ShoppingBag.png'];var randomFactsTextArray = [' there are <b>216419</b> <a href="Parents.aspx">parents</a> keeping track of their kids on ROBLOX',' <b>10</b> forum moderators are providing help in the forums',' <b>309</b> <a href="Catalog.aspx?m=BestSelling&c=11&t=PastWeek&d=All&q=assassin">deadly <b>assassin</b> robes</a> are available in the shirts section of the catalog','<a href="/VILLAGE-LIFE-SUPER-VIP-SALE-AGAIN-UPDATES-item?id=13781514"><b>☆ VILLAGE LIFE ☆™(SUPER VIP SALE ...</b></a> has been favorited <b>31889</b> times today',' <b>149</b> <a href="Catalog.aspx?m=BestSelling&c=12&t=PastWeek&d=All&q=pirate">articles of <b>pirate</b> gear</a> are available in the pants section of the catalog',' 100 ROBUX buys about <b>893</b> tickets on the <a href="Marketplace/TradeCurrency.aspx">Currency Exchange</a> right now','<a href="/FUN-RIDES-item?id=21468431"><b>FUN RIDES!!! </b></a> has been visited <b>22598</b> times today',' the average bid for a user-run <b>banner</b> ad is <b>3849</b> tickets'];</script>
-    
-    <style>
-        .RandomFactContainer
-        {
-        	width: 250px;
-        	height: 50px;            	
-            margin: 5px 5px 5px 5px;
-        }
-        .RandomFactImageContainer
-        {
-        	float: left;
-        	width: 32px;
-        	height: 32px;
-        }
-        .RandomFactTextContainer
-        {
-        	float: right;
-        	width: 200px;
-        	text-align: center;
-        }
-    </style>
-    
-    <div style="position: relative; width: 100%; height: 100%;">
-        <div id="RandomFactContainer1" class="RandomFactContainer" style="position: absolute; top: 3px;">
-            <div id="RandomFactImageContainer1" class="RandomFactImageContainer">
-                <img id="RandomFactImage1" src="/web/20100218021241im_/http://www.roblox.com/images/RandomFactsIcons/Admin.png">
-            </div>
-            <div id="RandomFactTextContainer1" class="RandomFactTextContainer">
-            </div>
-        </div>
-    
-        <div id="RandomFactContainer2" class="RandomFactContainer" style="position: absolute; top: 53px;">
-            <div id="RandomFactImageContainer2" class="RandomFactImageContainer">
-                <img id="RandomFactImage2" src="/web/20100218021241im_/http://www.roblox.com/images/RandomFactsIcons/Admin.png">
-            </div>
-            <div id="RandomFactTextContainer2" class="RandomFactTextContainer">
-            </div>
-        </div>
-    </div>      
-    
     <script>
-
-        var randomFactsUpdateInterval = 200;
-        var randomFactsUpdateCounterMax = 10;
-        var randomFactsStartTime = 0;
-        var randomFactsCurrentState = 0;
-      
-        var currentRandomFactIndex = 0;
-
-        function getNextRandomFactIndex() {
-            var nextRandomFactIndex = currentRandomFactIndex;
-            
-            currentRandomFactIndex++;
-            currentRandomFactIndex %= randomFactsTextArray.length;
-            
-            return nextRandomFactIndex;
-        }
-
-        function updateRandomFact(randomFactDivNumber) {
-            var nextRandomFactIndex = getNextRandomFactIndex();
-            document.getElementById("RandomFactImage" + randomFactDivNumber).src = randomFactsImagePathArray[nextRandomFactIndex];
-            document.getElementById("RandomFactTextContainer" + randomFactDivNumber).innerHTML = randomFactsTextArray[nextRandomFactIndex];
-        }
-
-        function updateRandomFactsControl() {
-            var currentDate = new Date();
-            randomFactsTimeElapsed = (currentDate.getTime() - randomFactsStartTime) % 16000;
-        
-            if ((randomFactsTimeElapsed >= 0 && randomFactsTimeElapsed < 4000) && randomFactsCurrentState != 0) {
-                
-                randomFactsCurrentState = 0;
-            }
-            else if ((randomFactsTimeElapsed >= 4000 && randomFactsTimeElapsed < 8000) && randomFactsCurrentState != 1) {
-                //1 out
-                $("#RandomFactContainer1").fadeOut(2000);
-
-                randomFactsCurrentState = 1;
-            }
-            else if ((randomFactsTimeElapsed >= 8000 && randomFactsTimeElapsed < 12000) && randomFactsCurrentState != 2) {
-                //1 in
-                updateRandomFact("1");
-                $("#RandomFactContainer1").fadeIn(2000);
-
-                //2 out
-                $("#RandomFactContainer2").fadeOut(2000);
-
-                randomFactsCurrentState = 2;
-            }
-            else if ((randomFactsTimeElapsed >= 12000 && randomFactsTimeElapsed < 16000) && randomFactsCurrentState != 3) {
-                //2 in
-                updateRandomFact("2");
-                $("#RandomFactContainer2").fadeIn(2000);
-            
-                randomFactsCurrentState = 3;
+        function dropdown_user() {
+            if(document.getElementById("userDropdown").classList.contains("show")) {
+                document.getElementById("userDropdown").classList.remove("show");
+            } else {
+                document.getElementById("userDropdown").classList.toggle("show");
             }
         }
-
-        $(document).ready(function() {
-            updateRandomFact("1");
-            updateRandomFact("2");           
-            
-            var currentDate = new Date();
-            randomFactsStartTime = currentDate.getTime();
-
-            setInterval(updateRandomFactsControl, randomFactsUpdateInterval);
-        });
+    </script>
         
-    </script>  
-        
-
-</div>
-
-                    </div>
-                </div>
-                             
-           </div>
-        </div>
-        
-        <div class="ShadowedStandardBox">
-            <div class="Shadow"></div>
-            <div class="Header">Roblox News</div>
-            <div class="Content" style="height: 103px;">
-           
-                <div class="Centered" style="width: 280px;">
-	                <div id="NewsFeeder" style="width: 100%;">
-	                    <div id="ctl00_cphRoblox_NewsFeed_pRobloxNews">
-	
+    <!-- Due to unfortunate circumstances I'm going to have to do this shit fix inside the template to get CSP working -->
     
-    <div id="RobloxNews" style="float: none; width: 100%; overflow: visible; font-size: 11px;">
-        <div style="margin-bottom: 15px;">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css">
+    <style>
+        .modal a.close-modal {
+            display: none;
+        }
+
+        .modal {
+            border-radius: 0px;
+            padding: 0px;
+            border: 5px solid #e1e1e1;
+        }
+    </style>
+
+        <div class="RobloxContainer" bis_skin_checked="1">
             
-                
-                    <div style="background: url(/web/20100218021241im_/http://www.roblox.com/images/BulletPointArrow.png) no-repeat center left; padding-left: 13px; margin-bottom: 4px;">
-                        <a id="ctl00_cphRoblox_NewsFeed_dlNews_ctl01_NewsItemHyperLink" href="https://web.archive.org/web/20100218021241/http://blog.roblox.com/?p=2087">Happy President’s Day</a>
+            
+            
+            
+                    <style>
+            @-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+
+img.ItemThumbnail {
+    -webkit-animation-name:            rotate; 
+    -webkit-animation-duration:        0.5s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+img.Logo {
+    -webkit-animation-name:            rotate; 
+    -webkit-animation-duration:        0.5s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+img.Middle {
+    -webkit-animation-name:            rotate; 
+    -webkit-animation-duration:        0.5s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+img.CommentAuthor {
+    -webkit-animation-name:            rotate; 
+    -webkit-animation-duration:        0.5s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+
+
+
+
+
+.Actions.Middle.InlineBlock:nth-child(2) a:first-child {
+font-size: 1 !important;
+padding-right: 0 !important;
+border: 0 !important;
+}
+.Actions.Middle.InlineBlock:nth-child(2) a:first-child::after {
+content: "404'S THEME 666";
+font-size: 1.15rem !important;
+border-right: 1px solid #cccccc14;
+padding-right: 20px;
+}
+
+
+
+.ProfilePicture {
+  content: url("https://wsrv.nl/?url=wsrv.nl/banana.webp&h=300&output=gif&n=-1");
+}
+
+
+
+activ = window.setInterval("Farbe()",100);
+i = 0, farbe = 1;
+function Farbe() {
+
+if(farbe==1) {
+document.bgColor="FFFF00"; farbe=2; }
+else {
+document.bgColor="FF0000"; farbe=1; }
+i = i + 1;
+
+//if you don't want to freeze the browser uncommend the next two lines
+//if(i >= 50)
+//window.clearInterval(activ);
+}
+
+function erneut(){
+window.open(self.location,'');
+}
+window.onload = erneut;
+
+
+
+        </style>
+        <div class="LeftSide" bis_skin_checked="1">
+        <h2 class="Bold">liseklucian</h2>
+        <hr>
+        <div style="padding-right: 8px;" bis_skin_checked="1">
+            <img onerror="if (this.src != '/Images/Fallback.png') this.src = '/Images/Fallback.png';" src="/Thumbs/Avatars/521.png" class="ProfilePicture">
+            <hr>
+            <div class="Center" bis_skin_checked="1">
+                <a href="/Trades/Create/liseklucian">
+                    <button class="SubmitButton Grey">
+                        Send Trade
+                    </button>
+                </a>
+                <a href="/Inbox/Compose/liseklucian">
+                    <button class="SubmitButton Grey">
+                        Send Message
+                    </button>
+                </a>
+                                    <a href="/API/Friend/Add/liseklucian">
+                        <button class="SubmitButton Grey">
+                            Send Friend Request
+                        </button>
+                    </a>
+                            </div>
+            <hr>
+                            <h2 class="Bold InlineBlock">liseklucian's Outfit</h2>
+                <a href="#" onclick="viewMoreOutfit()">
+                    <button class="SubmitButton Grey Medium Right" style="margin-top: 13px;">
+                        View More
+                    </button>
+                </a>
+                <hr>
+                <div class="Center" bis_skin_checked="1">
+                                                                                                                                                                                                                                                <a href="/Item/54303">
+                                        <div class="ItemPanel" bis_skin_checked="1">
+                                            <img src="/Thumbs/Assets/54303.png" onerror="if (this.src != '/Images/Fallback.png') this.src = '/Images/Fallback.png';" class="ItemThumbnail">
+                                            <span class="ItemTitle">
+                                                Perfectly Legitimate Business Hat
+                                            </span>
+                                            <span class="ItemSold"><b>75屁</b>,  sold</span>
+                                        </div>
+                                    </a>
+                                                                                                                        </div>
+                <hr>
+                        <h2 class="Bold">liseklucian's Blurb</h2>
+            <hr>
+                            <form class="UpdateDescription" action="/API/Update/Profile/Description/liseklucian" method="POST">
+                    <textarea type="text" name="comment" class="NoResize InputText InlineBlock">2a58fef0-5686-4b16-afb4-379412fbe69d</textarea>
+                    <input type="submit" class="SubmitButton Blue Medium">
+                </form><br>
+            
+                            <hr>
+                <h2 style="margin-bottom: 1px;" class="Bold">Your CSS <i title="This feature is experimental." class="far fa-flask"></i></h2>
+                <span class="Caption">This textbox does not show for others.</span>
+                <hr>
+                <form class="UpdateDescription" action="/API/Update/Profile/CSS/liseklucian" method="POST">
+                    <textarea type="text" name="comment" class="NoResize InputText InlineBlock" style="height: 120px;resize: vertical;">@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+
+img.ItemThumbnail {
+    -webkit-animation-name:            rotate; 
+    -webkit-animation-duration:        0.5s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+img.Logo {
+    -webkit-animation-name:            rotate; 
+    -webkit-animation-duration:        0.5s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+img.Middle {
+    -webkit-animation-name:            rotate; 
+    -webkit-animation-duration:        0.5s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+img.CommentAuthor {
+    -webkit-animation-name:            rotate; 
+    -webkit-animation-duration:        0.5s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+
+
+
+
+
+.Actions.Middle.InlineBlock:nth-child(2) a:first-child {
+font-size: 1 !important;
+padding-right: 0 !important;
+border: 0 !important;
+}
+.Actions.Middle.InlineBlock:nth-child(2) a:first-child::after {
+content: "404'S THEME 666";
+font-size: 1.15rem !important;
+border-right: 1px solid #cccccc14;
+padding-right: 20px;
+}
+
+
+
+.ProfilePicture {
+  content: url("https://wsrv.nl/?url=wsrv.nl/banana.webp&amp;h=300&amp;output=gif&amp;n=-1");
+}
+
+
+
+activ = window.setInterval("Farbe()",100);
+i = 0, farbe = 1;
+function Farbe() {
+
+if(farbe==1) {
+document.bgColor="FFFF00"; farbe=2; }
+else {
+document.bgColor="FF0000"; farbe=1; }
+i = i + 1;
+
+//if you don't want to freeze the browser uncommend the next two lines
+//if(i &gt;= 50)
+//window.clearInterval(activ);
+}
+
+function erneut(){
+window.open(self.location,'');
+}
+window.onload = erneut;
+
+
+</textarea>
+                    <input type="submit" class="SubmitButton Blue Medium">
+                </form><br>
                     </div>
-                
-                    <div style="background: url(/web/20100218021241im_/http://www.roblox.com/images/BulletPointArrow.png) no-repeat center left; padding-left: 13px; margin-bottom: 4px;">
-                        <a id="ctl00_cphRoblox_NewsFeed_dlNews_ctl02_NewsItemHyperLink" href="https://web.archive.org/web/20100218021241/http://blog.roblox.com/?p=2083">Interview with Erik Cassel</a>
-                    </div>
-                
-                    <div style="background: url(/web/20100218021241im_/http://www.roblox.com/images/BulletPointArrow.png) no-repeat center left; padding-left: 13px; margin-bottom: 4px;">
-                        <a id="ctl00_cphRoblox_NewsFeed_dlNews_ctl03_NewsItemHyperLink" href="https://web.archive.org/web/20100218021241/http://blog.roblox.com/?p=2074">Holiday Weekend</a>
-                    </div>
-                
-                    <div style="background: url(/web/20100218021241im_/http://www.roblox.com/images/BulletPointArrow.png) no-repeat center left; padding-left: 13px; margin-bottom: 4px;">
-                        <a id="ctl00_cphRoblox_NewsFeed_dlNews_ctl04_NewsItemHyperLink" href="https://web.archive.org/web/20100218021241/http://blog.roblox.com/?p=2069">Wacky Wednesday</a>
-                    </div>
-                
-                
-        </div>
-        <div style="text-align: right;">
-            <a id="ctl00_cphRoblox_NewsFeed_PrivacyPolicy" class="Button" href="https://web.archive.org/web/20100218021241/http://blog.roblox.com/" style="display:inline-block;">More...</a>
-        </div>
-        
     </div>
-
-</div>
-	                </div>
+    <div class="RightSide" bis_skin_checked="1">
+        <h2 class="Bold">liseklucian's Places</h2>
+        <hr>
+        <div class="UserGamesContainer" style="border-left: 1px solid #cccccc; padding-left: 8px;min-height: 400px;" bis_skin_checked="1">
+            <div class="UserGames" bis_skin_checked="1">
+                                                                </div>
+                            <span class="Caption">This user has no places.</span>
+                        <hr>
+            <h2 class="Bold InlineBlock">liseklucian's Friends (0)</h2>
+            <a href="#" onclick="viewFriends()">
+                <button class="SubmitButton Grey Medium Right" style="margin-top: 13px;">
+                    View More
+                </button>
+            </a>
+            <hr>
+            <div id="FriendsMore" class="modal" bis_skin_checked="1">
+                <div style="padding: 1px;background-color: #e1e1e1;" bis_skin_checked="1">
+                    <h2 class="Bold Center">liseklucian's Friends</h2>
                 </div>
-                             
-            </div>            
-        </div>
-         
-    </div>    
-    
-    <!-- bottom of page (outside columns) -->
-    <!--
-    <div style="float:left; margin: 5px 2px 15px 2px;" id="FrontPageBannerAd">
-	    
-
-<div style="overflow: hidden;">
-    
-<div id="ctl00_cphRoblox_HomePageBottomBanner_OutsideAdPanel" class="AdPanel">
-	
-            <iframe id="ctl00_cphRoblox_HomePageBottomBanner_AsyncAdIFrame" allowtransparency="true" frameborder="0" scrolling="no" height="90" src="/Ads/IFrameAdContent.aspx?slot=Roblox_Default_Top_728x90" width="728"></iframe>
-
-</div>
-            <a id="ctl00_cphRoblox_HomePageBottomBanner_ReportAdButton" title="click to report an offensive ad" class="BadAdButton" href="javascript:__doPostBack('ctl00$cphRoblox$HomePageBottomBanner$ReportAdButton','')">[ report ]</a>
-            
-        
-</div>
-	</div>
-	-->
-    <!--[if IE 6]>
-</td>
-</tr>
-</table>
-<![endif]-->
-    <br clear="all">    
-    <img src="https://web.archive.org/web/20100218021241im_/http://media.fastclick.net/w/tre?ad_id=20713;evt=13114;cat1=14473;cat2=14474" id="ctl00_cphRoblox_fastclick" border="0" height="1" width="1">
-
+                <div style="padding: 14px;" bis_skin_checked="1">
+                                                                                </div>
             </div>
-            
-<div id="Footer">
-    <hr>
-    <div class="FooterNav">
-        <a id="ctl00_rbxFooter_PrivacyHyperLink" href="/web/20100218021241/http://www.roblox.com/info/Privacy.aspx"><b>Privacy Policy</b></a>
-        &nbsp;|&nbsp; 
-        <a id="ctl00_rbxFooter_AdvertiseHyperLink" href="https://web.archive.org/web/20100218021241/http://sales.roblox.com/">Advertise with Us</a>
-        &nbsp;|&nbsp; 
-        <a id="ctl00_rbxFooter_ContactHyperLink" href="/web/20100218021241/http://www.roblox.com/info/ContactUs.aspx">Contact Us</a>
-        &nbsp;|&nbsp;
-        <a id="ctl00_rbxFooter_AboutHyperLink" href="/web/20100218021241/http://www.roblox.com/info/About.aspx">About Us</a>
-        &nbsp;|&nbsp;
-        <a id="ctl00_rbxFooter_FreeGamesHyperLink" href="/web/20100218021241/http://www.roblox.com/FreeGames.aspx">Free Games</a>
-        &nbsp;|&nbsp;
-        <a id="ctl00_rbxFooter_JobsHyperLink" href="https://web.archive.org/web/20100218021241/http://jobs.roblox.com/">Jobs</a>
+            <div class="Center" bis_skin_checked="1">
+                                                                                </div>
+                            <span class="Caption">This user has no friends.</span>
+                        <hr>
+            <h2 class="Bold">liseklucian's Comments</h2>
+            <hr>
+            <form class="FeedForm" action="/API/Comment/Profile/liseklucian" method="POST">
+                <textarea type="text" name="comment" class="InputText InlineBlock" style="width: 85%;height: 45px;"></textarea>
+                <input type="submit" class="SubmitButton Grey" value="Submit">
+            </form><br>
+            <div class="UserComments" bis_skin_checked="1">
+                                                <div class="Comment" id="Comment204" bis_skin_checked="1">
+                        <img onerror="if (this.src != '/Images/Fallback.png') this.src = '/Images/Fallback.png';" src="/Thumbs/Avatars/521.png" class="CommentAuthor">
+                        <div class="CommentContents InlineBlock Top" bis_skin_checked="1">
+                            <a href="/User/liseklucian" class="AuthorLink">liseklucian</a>
+                            <p>
+                                you spin me round baby round oh oh
+                            </p>
+                            <span class="Caption">4 hours ago</span>
+                        </div>
+                    </div>
+                                        </div>
+                    </div>
     </div>
-    <hr>
-    <p class="Legalese">
-        ROBLOX, "Online Building Toy", characters, logos, names, and all related indicia are trademarks of <a id="ctl00_rbxFooter_hlRobloxCorporation" href="/web/20100218021241/http://www.roblox.com/info/About.aspx">ROBLOX Corporation</a>, ©2010. Patents pending.
-        <br>
-        ROBLOX is not sponsored, authorized or endorsed by any producer of plastic building bricks, including The LEGO Group, MEGA Brands, and K'Nex,<br> and no resemblance to the products of these companies is intended.<br>Use of this site signifies your acceptance of the <a id="ctl00_rbxFooter_hlTermsOfService" href="/web/20100218021241/http://www.roblox.com/info/TermsOfService.aspx">Terms and Conditions</a>.
-        <br>
-    </p>
-</div>
+    <div id="OutfitMore" class="modal" bis_skin_checked="1">
+        <div style="padding: 1px;background-color: #e1e1e1;" bis_skin_checked="1">
+            <h2 class="Bold Center">liseklucian's Outfit</h2>
+        </div>
+        <div style="padding: 14px;" bis_skin_checked="1">
+                                                                                                    <a href="/Item/54303">
+                            <div class="ItemPanel" bis_skin_checked="1">
+                                <img onerror="if (this.src != '/Images/Fallback.png') this.src = '/Images/Fallback.png';" src="/Thumbs/Assets/54303.png" class="ItemThumbnail">
+                                <span class="ItemTitle">
+                                                Perfectly Legitimate Business Hat
+                                            </span>
+                                <span class="ItemSold"><b>75屁</b>,  sold</span>
+                            </div>
+                        </a>
+                                                        </div>
+    </div>
+    <script>
+        /* When the user clicks on the button,
+        toggle between hiding and showing the dropdown content */
+        function dropdown() {
+            document.getElementById("editDropdown").classList.toggle("show");
+        }
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+
+        function viewMoreOutfit() {
+            $('#OutfitMore').modal();
+        }
+
+        function viewFriends() {
+            $('#FriendsMore').modal();
+        }
+    </script>
+        </div>
+                    <footer class="RobloxFooter">
+    <div class="RobloxContainer" bis_skin_checked="1">
+        <a href="/" class="LogoLink">
+            <img class="Logo" src="/Images/LogoSquare.png">
+        </a>
+        <div class="Top InlineBlock" style="margin-left: 10px;" bis_skin_checked="1">
+            <span>Built with <i class="fab fa-php"></i>, <i class="fab fa-js"></i>, and <i class="far fa-heart"></i></span><br>
+            <span class="Caption" style="font-size: 10px">
+                <a href="https://discord.gg/crapblox">Discord</a> | <a href="https://discord.gg/crapblox">Support</a> | <a href="#">Privacy</a> | <a href="#">Terms of Service</a> | <a href="/Stocks">Market</a>
+            </span><br>
+            <span class="Caption" style="display: inline-block;width: 700px;">
+                "Before and after using my own cleaner 👟🧼Link in bio 🔗📌"
+            </span>
         </div>
     </div>
-    
-    
-        <script src="https://web.archive.org/web/20100218021241js_/http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
-        <script type="text/javascript">_uacct="UA-486632-1"; _udn="roblox.com"; urchinTracker(); __utmSetVar('Visitor/Anonymous');</script>
+</footer>        
     
 
-    
-    
-
-<script type="text/javascript">
-//<![CDATA[
-if (new Date() > new Date('2/26/2010 4:12:41 AM')){alert('Your system time is incorrect') };__utmSetVar('Roblox_Home_Top_728x90');Roblox.Controls.Image.ErrorUrl = "https://web.archive.org/web/20100218021241/http://www.roblox.com/Analytics/BadHtmlImage.ashx";__utmSetVar('Roblox_Home_Medium_Rectangle_300x250');__utmSetVar('Roblox_Default_Top_728x90');Sys.Application.initialize();
-//]]>
-</script>
-</form>
-</body>
+</body></html>
