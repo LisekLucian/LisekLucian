@@ -1,6 +1,6 @@
-- 👋 Hi, I’m @LisekLucian
-- 👀 I’m interested in programming
-- 🌱 I’m currently learning python
+- Hi, I’m @LisekLucian
+- I’m interested in programming
+- I’m the main dev of NoodlebrainOS™️!
 
 <!---
 LisekLucian/LisekLucian is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
